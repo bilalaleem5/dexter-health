@@ -1,0 +1,83 @@
+{
+  "resident_id": "R001",
+  "notes": [
+    {
+      "timestamp": "2024-06-20T09:10:00",
+      "shift": "early",
+      "author": "PK M. Sahin",
+      "text": "Routinekontrolle. Bew. wach, orientiert, mobil am Rollator. Gewicht stabil, keine Ödeme. BZ morgens 138 mg/dl."
+    },
+    {
+      "timestamp": "2024-09-05T16:30:00",
+      "shift": "late",
+      "author": "PK L. Petersen",
+      "text": "Bew. klagt über Knieschmerzen bds. bei Belastung (bek. Gonarthrose). Kühlpackung u. Schonung, Beschwerden rückläufig. Keine medik. Anordnung."
+    },
+    {
+      "timestamp": "2024-11-06T19:50:00",
+      "shift": "late",
+      "author": "PK J. Brandt",
+      "text": "Urin konzentriert, Bew. berichtet Brennen beim Wasserlassen. Temp 37,4 °C. HA informiert, Cefuroxim angesetzt."
+    },
+    {
+      "timestamp": "2024-11-12T08:20:00",
+      "shift": "early",
+      "author": "PK M. Sahin",
+      "text": "Antibiose planmäßig beendet, Infektzeichen abgeklungen, kein Brennen mehr. Trinkmenge gut."
+    },
+    {
+      "timestamp": "2025-02-15T08:40:00",
+      "shift": "early",
+      "author": "PK A. Okafor",
+      "text": "Routine. BZ morgens 151 mg/dl. Fußpflege durchgeführt, Haut intakt. AZ stabil."
+    },
+    {
+      "timestamp": "2025-09-12T06:45:00",
+      "shift": "night",
+      "author": "PK A. Okafor",
+      "text": "Beim Aufstehen abgestützt, kein Sturz zu Boden (Beinahe-Sturz, s. Sturzprotokoll). Anti-Rutsch-Socken, Rollator in Reichweite gestellt."
+    },
+    {
+      "timestamp": "2025-12-03T20:30:00",
+      "shift": "late",
+      "author": "PK J. Brandt",
+      "text": "Leichte Knöchelödeme abends, Beine hochgelagert. Gewicht stabil. Keine Luftnot in Ruhe."
+    },
+    {
+      "timestamp": "2026-04-21T10:00:00",
+      "shift": "early",
+      "author": "PK M. Sahin",
+      "text": "Quartalslabor über HA abgenommen. Bew. beschwerdefrei, mobil am Rollator, BZ morgens 149 mg/dl."
+    },
+    {
+      "timestamp": "2026-05-04T07:40:00",
+      "shift": "early",
+      "author": "PK M. Sahin",
+      "text": "Bew. wach, orientiert. Frühstück vollständig, trinkt gut. AZ stabil."
+    },
+    {
+      "timestamp": "2026-05-07T20:15:00",
+      "shift": "late",
+      "author": "PK J. Brandt",
+      "text": "Leichte Beinödeme bds., Beine hochgelagert. Trinkmenge heute ca. 1600 ml."
+    },
+    {
+      "timestamp": "2026-05-10T21:00:00",
+      "shift": "late",
+      "author": "PK J. Brandt",
+      "text": "Bew. klagt über Luftnot beim Treppensteigen zur Tagespflege. RR 150/85. HA informiert."
+    },
+    {
+      "timestamp": "2026-05-12T06:30:00",
+      "shift": "night",
+      "author": "PK A. Okafor",
+      "text": "Nachts zunehmende Atemnot, Beine deutlich ödematös. Notarzt verständigt, Einweisung Klinikum Köln-Süd."
+    },
+    {
+      "timestamp": "2026-05-26T15:30:00",
+      "shift": "late",
+      "author": "PK M. Sahin",
+      "text": "Bew. aus KH zurück (Klinikum Köln-Süd). Erstversorgung erfolgt, Arztbrief liegt vor. Wirkt erholt."
+    }
+  ]
+}

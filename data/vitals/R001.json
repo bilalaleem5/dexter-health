@@ -1,0 +1,32 @@
+{
+  "resident_id": "R001",
+  "weights": [
+    {"created_at": "2025-09-01T09:00:00", "weight": 77.2},
+    {"created_at": "2025-11-03T09:00:00", "weight": 77.8},
+    {"created_at": "2026-01-05T09:00:00", "weight": 77.5},
+    {"created_at": "2026-03-03T09:00:00", "weight": 78.4},
+    {"created_at": "2026-04-02T09:00:00", "weight": 78.9},
+    {"created_at": "2026-05-04T09:00:00", "weight": 79.6},
+    {"created_at": "2026-05-11T09:00:00", "weight": 81.0}
+  ],
+  "measurements": [
+    {"created_at": "2025-09-15T08:30:00", "type": "bp_sys", "value": 148, "unit": "mmHg"},
+    {"created_at": "2025-09-15T08:30:00", "type": "bp_dia", "value": 86, "unit": "mmHg"},
+    {"created_at": "2025-09-15T08:30:00", "type": "pulse", "value": 74, "unit": "/min"},
+    {"created_at": "2025-09-15T08:30:00", "type": "blood_glucose", "value": 142, "unit": "mg/dl"},
+    {"created_at": "2025-12-02T08:00:00", "type": "bp_sys", "value": 152, "unit": "mmHg"},
+    {"created_at": "2025-12-02T08:00:00", "type": "bp_dia", "value": 88, "unit": "mmHg"},
+    {"created_at": "2025-12-02T08:00:00", "type": "spo2", "value": 95, "unit": "%"},
+    {"created_at": "2026-02-10T08:15:00", "type": "blood_glucose", "value": 168, "unit": "mg/dl"},
+    {"created_at": "2026-02-10T08:15:00", "type": "bp_sys", "value": 144, "unit": "mmHg"},
+    {"created_at": "2026-02-10T08:15:00", "type": "bp_dia", "value": 82, "unit": "mmHg"},
+    {"created_at": "2026-04-28T07:50:00", "type": "bp_sys", "value": 150, "unit": "mmHg"},
+    {"created_at": "2026-04-28T07:50:00", "type": "bp_dia", "value": 85, "unit": "mmHg"},
+    {"created_at": "2026-04-28T07:50:00", "type": "pulse", "value": 78, "unit": "/min"},
+    {"created_at": "2026-04-28T07:50:00", "type": "blood_glucose", "value": 155, "unit": "mg/dl"},
+    {"created_at": "2026-05-10T20:00:00", "type": "bp_sys", "value": 150, "unit": "mmHg"},
+    {"created_at": "2026-05-10T20:00:00", "type": "bp_dia", "value": 85, "unit": "mmHg"},
+    {"created_at": "2026-05-10T20:00:00", "type": "spo2", "value": 93, "unit": "%"},
+    {"created_at": "2026-05-10T20:00:00", "type": "pulse", "value": 82, "unit": "/min"}
+  ]
+}

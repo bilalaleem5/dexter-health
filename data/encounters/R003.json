@@ -1,0 +1,30 @@
+{
+  "resident_id": "R003",
+  "encounters": [
+    {
+      "date_from": "2021-02-08",
+      "date_to": "2021-02-11",
+      "type": "hospital",
+      "facility": "Klinikum Köln-Süd, Innere Medizin",
+      "reason": "Erstmanifestation eines tachykarden Vorhofflimmerns mit Palpitationen",
+      "key_findings": "Permanentes Vorhofflimmern erstdiagnostiziert. Strukturell unauffälliger Echobefund, gute LV-Funktion. CHA2DS2-VASc-Score mit Indikation zur oralen Antikoagulation.",
+      "med_changes": [
+        "Phenprocoumon (Marcumar) zur oralen Antikoagulation neu angesetzt, Ziel-INR 2,0-3,0",
+        "Bisoprolol zur Frequenzkontrolle von 2,5 mg auf 5 mg erhöht"
+      ],
+      "summary": "Frequenzkontrolliertes Vorgehen, Entlassung in stabilem Zustand. Einstellung der oralen Antikoagulation über die Hausärztin, INR-Kontrollen über die Einrichtung organisiert."
+    },
+    {
+      "date_from": "2021-09-13",
+      "date_to": "2021-09-13",
+      "type": "specialist",
+      "facility": "Augenklinik / Praxis Dr. Hoffmann",
+      "reason": "Ambulante Katarakt-Operation rechtes Auge (linkes Auge voroperiert)",
+      "key_findings": "Komplikationslose Phakoemulsifikation mit Hinterkammerlinsen-Implantation. Antikoagulation perioperativ gemäß augenärztlicher Vorgabe fortgeführt.",
+      "med_changes": [
+        "keine Änderung der Dauermedikation"
+      ],
+      "summary": "Beidseitige Katarakt-Versorgung damit abgeschlossen. Postoperativ befristete Augentropfen über zwei Wochen, danach beendet. Keine bleibende Medikationsänderung."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "resident_id": "R002",
+  "events": [
+    {
+      "date": "2018-01-15",
+      "action": "started",
+      "internal_name": "amlodipin",
+      "wirkstoff": "Amlodipin",
+      "to_dosage": "5 mg 1-0-0-0",
+      "reason": "Erstdiagnose arterielle Hypertonie",
+      "prescriber": "Dr. Vogel"
+    },
+    {
+      "date": "2018-01-15",
+      "action": "started",
+      "internal_name": "simvastatin",
+      "wirkstoff": "Simvastatin",
+      "to_dosage": "20 mg 0-0-1-0",
+      "reason": "Erstdiagnose Hyperlipidämie",
+      "prescriber": "Dr. Vogel"
+    },
+    {
+      "date": "2022-07-08",
+      "action": "started",
+      "internal_name": "metamizol",
+      "wirkstoff": "Metamizol",
+      "to_dosage": "500 mg bei Bedarf, max. 4 g/Tag",
+      "reason": "Coxarthrose beidseits, belastungsabhängige Hüftschmerzen, Bedarfsanalgesie",
+      "prescriber": "Dr. Vogel"
+    },
+    {
+      "date": "2024-03-14",
+      "action": "started",
+      "internal_name": "pantoprazol",
+      "wirkstoff": "Pantoprazol",
+      "to_dosage": "40 mg 1-0-0-0",
+      "reason": "Akute obere GI-Blutung bei Ulcus ventriculi (Forrest IIb, endoskopisch gestillt), PPI-Therapie zur Ulkusabheilung",
+      "prescriber": "St. Vinzenz-Krankenhaus / Dr. Vogel"
+    },
+    {
+      "date": "2024-06-28",
+      "action": "stopped",
+      "internal_name": "pantoprazol",
+      "wirkstoff": "Pantoprazol",
+      "from_dosage": "40 mg 1-0-0-0",
+      "reason": "Ulkus endoskopisch als abgeheilt bestätigt (Kontroll-Gastroskopie 06/2024), PPI planmäßig ausgeschlichen und beendet, keine Dauerindikation",
+      "prescriber": "Dr. Vogel"
+    },
+    {
+      "date": "2024-09-10",
+      "action": "started",
+      "internal_name": "colecalciferol",
+      "wirkstoff": "Colecalciferol",
+      "to_dosage": "1000 IE 1-0-0-0",
+      "reason": "Vitamin-D-Mangel im Routinelabor, Substitution",
+      "prescriber": "Dr. Vogel"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "resident_id": "R003",
+  "updated_at": "2026-05-10",
+  "medications_planned": [
+    {
+      "internal_name": "phenprocoumon",
+      "name": "Marcumar",
+      "wirkstoff": "Phenprocoumon",
+      "strength": "3",
+      "unit": "mg",
+      "dosage": "nach INR-Ausweis (Ziel-INR 2,0-3,0)",
+      "indication": "Vorhofflimmern, orale Antikoagulation",
+      "prescriber": "Dr. Krüger"
+    },
+    {
+      "internal_name": "bisoprolol",
+      "name": "BisoHEXAL",
+      "wirkstoff": "Bisoprolol",
+      "strength": "5",
+      "unit": "mg",
+      "dosage": "1-0-0-0",
+      "indication": "Vorhofflimmern, Frequenzkontrolle",
+      "prescriber": "Dr. Krüger"
+    },
+    {
+      "internal_name": "levothyroxin",
+      "name": "L-Thyroxin Henning",
+      "wirkstoff": "Levothyroxin",
+      "strength": "75",
+      "unit": "µg",
+      "dosage": "1-0-0-0 nüchtern",
+      "indication": "Hypothyreose",
+      "prescriber": "Dr. Krüger"
+    },
+    {
+      "internal_name": "pantoprazol",
+      "name": "Pantoprazol TAD",
+      "wirkstoff": "Pantoprazol",
+      "strength": "20",
+      "unit": "mg",
+      "dosage": "1-0-0-0",
+      "indication": "Magenschutz",
+      "prescriber": "Dr. Krüger"
+    }
+  ],
+  "medications_on_demand": []
+}

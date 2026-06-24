@@ -1,0 +1,101 @@
+{
+  "resident_id": "R004",
+  "notes": [
+    {
+      "timestamp": "2024-02-12T09:20:00",
+      "shift": "early",
+      "author": "PK L. Petersen",
+      "text": "Routinekontrolle. Bew. wach, orientiert, mobil ohne Hilfsmittel. Inhalation Spiriva n. Plan, Technik sicher. Keine vermehrte Luftnot in Ruhe."
+    },
+    {
+      "timestamp": "2024-03-07T19:40:00",
+      "shift": "late",
+      "author": "PK D. Yilmaz",
+      "text": "Seit 2 Tagen vermehrt Husten, zäher Auswurf, Belastungsdyspnoe zugenommen. SpO2 90 %, subfebril. HA informiert."
+    },
+    {
+      "timestamp": "2024-03-08T11:00:00",
+      "shift": "early",
+      "author": "PK D. Yilmaz",
+      "text": "AZ-Verschlechterung, Einweisung Kreiskrankenhaus zur Behandlung der COPD-Exazerbation. Penicillin-Allergie im Überleitbogen vermerkt."
+    },
+    {
+      "timestamp": "2024-03-12T16:30:00",
+      "shift": "late",
+      "author": "PK A. Okafor",
+      "text": "Rückkehr aus KH. Exazerbation gebessert. Befristete Antibiose und Steroid laut Brief, Ausschleichschema läuft. Inhalation n. Plan fortgeführt."
+    },
+    {
+      "timestamp": "2024-03-23T08:30:00",
+      "shift": "early",
+      "author": "PK L. Petersen",
+      "text": "Steroid planmäßig ausgeschlichen und beendet. AZ stabil, Husten rückläufig, kein Fieber. Mobil ohne Hilfsmittel."
+    },
+    {
+      "timestamp": "2024-06-18T09:10:00",
+      "shift": "early",
+      "author": "PK M. Sahin",
+      "text": "Routine. Bew. beschwerdefrei, Inhalation n. Plan. RR 134/80, SpO2 93 %. Isst und trinkt gut."
+    },
+    {
+      "timestamp": "2024-11-12T15:00:00",
+      "shift": "late",
+      "author": "PK D. Yilmaz",
+      "text": "Pneumologischer Kontrolltermin extern wahrgenommen. COPD laut Befund stabil, Therapie unverändert. Bew. nach Rückkehr wohlauf."
+    },
+    {
+      "timestamp": "2025-01-19T21:25:00",
+      "shift": "night",
+      "author": "PK A. Okafor",
+      "text": "Nach Hustenanfall beim Toilettengang kurzatmig, an Kommode abgestützt, kein Sturz zu Boden (s. Sturzprotokoll). Nachtlicht aktiviert, Gehstütze bereitgestellt."
+    },
+    {
+      "timestamp": "2025-04-22T10:00:00",
+      "shift": "early",
+      "author": "PK M. Sahin",
+      "text": "Jährliches Assessment durchgeführt, Werte stabil zum Vorjahr. Bew. orientiert, Inhalationstechnik weiterhin sicher. RR 132/78."
+    },
+    {
+      "timestamp": "2025-09-30T16:45:00",
+      "shift": "late",
+      "author": "PK L. Petersen",
+      "text": "Bew. klagt über leichte Belastungsdyspnoe bei Spaziergang im Garten, in Ruhe rasch erholt. Salbutamol b. Bedarf, danach beschwerdefrei."
+    },
+    {
+      "timestamp": "2025-12-09T08:50:00",
+      "shift": "early",
+      "author": "PK M. Sahin",
+      "text": "Routine. AZ stabil, kein Infektzeichen. RR 132/78, SpO2 92 %. Bew. nimmt regelmäßig an Singnachmittagen teil."
+    },
+    {
+      "timestamp": "2026-02-17T09:00:00",
+      "shift": "early",
+      "author": "PK D. Yilmaz",
+      "text": "Quartalslabor über HA abgenommen. Bew. beschwerdefrei, mobil, Inhalation n. Plan. RR 136/80."
+    },
+    {
+      "timestamp": "2026-05-18T07:50:00",
+      "shift": "early",
+      "author": "PK D. Yilmaz",
+      "text": "AZ red., vermehrt Husten m. gelblichem Auswurf. Inhalation n. Plan."
+    },
+    {
+      "timestamp": "2026-05-22T20:00:00",
+      "shift": "late",
+      "author": "PK L. Petersen",
+      "text": "Husten persistiert, heute subfebril 37,9 °C. Viel geschlafen, isst wenig."
+    },
+    {
+      "timestamp": "2026-05-25T06:45:00",
+      "shift": "night",
+      "author": "PK A. Okafor",
+      "text": "Fieber 38,8 °C, AZ deutlich verschlechtert, SpO2 88 %. HA-Rücksprache, Einweisung Kreiskrankenhaus."
+    },
+    {
+      "timestamp": "2026-06-05T15:10:00",
+      "shift": "late",
+      "author": "PK D. Yilmaz",
+      "text": "Rückkehr aus KH. Arztbrief liegt vor. Angehörige bringen restliche Medikamente morgen. AZ gebessert."
+    }
+  ]
+}

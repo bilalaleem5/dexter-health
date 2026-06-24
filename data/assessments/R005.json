@@ -1,0 +1,18 @@
+{
+  "resident_id": "R005",
+  "assessments": [
+    {"date": "2024-02-12", "instrument": "Barthel", "score": 45, "max": 100, "note": "deutliche Hilfebedürftigkeit bei Hemiparese rechts, Transfer mit 1-2 Helfern"},
+    {"date": "2024-02-12", "instrument": "MMST", "score": 18, "max": 30, "note": "leicht- bis mittelgradige kognitive Einschränkung bei bekannter Demenz"},
+    {"date": "2024-02-12", "instrument": "Braden", "score": 18, "max": 23, "note": "geringes bis mäßiges Dekubitusrisiko, Hautstatus intakt"},
+    {"date": "2024-08-26", "instrument": "Barthel", "score": 45, "max": 100, "note": "stabil, Transfer weiter mit Unterstützung"},
+    {"date": "2024-08-26", "instrument": "Braden", "score": 18, "max": 23, "note": "Hautstatus intakt, Prophylaxe nach Plan"},
+    {"date": "2025-02-24", "instrument": "Barthel", "score": 40, "max": 100, "note": "marginal reduziert, zunehmend zeitintensivere Mobilisation"},
+    {"date": "2025-02-24", "instrument": "MMST", "score": 16, "max": 30, "note": "langsam progredient bei bekannter Demenz, kein abrupter Knick"},
+    {"date": "2025-02-24", "instrument": "Braden", "score": 17, "max": 23, "note": "mäßiges Risiko, intensivierte Lagerung nach Plan, Haut intakt"},
+    {"date": "2025-08-18", "instrument": "Barthel", "score": 40, "max": 100, "note": "stabil zum Vorbefund"},
+    {"date": "2025-08-18", "instrument": "Braden", "score": 17, "max": 23, "note": "mäßiges Risiko, Hautstatus intakt"},
+    {"date": "2026-02-16", "instrument": "Braden", "score": 16, "max": 23, "note": "mäßiges Dekubitusrisiko, gerötete Hautstelle sakral (Grad I) beobachtet, Druckentlastung intensiviert"},
+    {"date": "2026-03-23", "instrument": "Barthel", "score": 40, "max": 100, "note": "stabil; sakrale Rötung vollständig abgeheilt, Haut wieder intakt"},
+    {"date": "2026-03-23", "instrument": "MMST", "score": 15, "max": 30, "note": "weiterhin langsam progredient bei bekannter Demenz, stabiler Tagesverlauf"}
+  ]
+}

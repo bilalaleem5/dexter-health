@@ -1,0 +1,14 @@
+{
+  "resident_id": "R005",
+  "wounds": [
+    {
+      "wound_id": "W-2026-004",
+      "location": "sakral",
+      "type": "Dekubitus",
+      "grade": "I",
+      "status": "healed",
+      "noted_at": "2026-02-10",
+      "healed_at": "2026-03-15"
+    }
+  ]
+}

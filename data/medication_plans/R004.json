@@ -1,0 +1,38 @@
+{
+  "resident_id": "R004",
+  "updated_at": "2026-05-12",
+  "medications_planned": [
+    {
+      "internal_name": "ramipril",
+      "name": "RamiLich",
+      "wirkstoff": "Ramipril",
+      "strength": "5",
+      "unit": "mg",
+      "dosage": "1-0-0-0",
+      "indication": "Hypertonie",
+      "prescriber": "Dr. Aydin"
+    },
+    {
+      "internal_name": "tiotropium",
+      "name": "Spiriva",
+      "wirkstoff": "Tiotropiumbromid",
+      "strength": "18",
+      "unit": "µg",
+      "dosage": "1-0-0-0 inhalativ",
+      "indication": "COPD",
+      "prescriber": "Dr. Aydin"
+    }
+  ],
+  "medications_on_demand": [
+    {
+      "internal_name": "salbutamol",
+      "name": "SalbuHEXAL DA",
+      "wirkstoff": "Salbutamol",
+      "strength": "100",
+      "unit": "µg/Hub",
+      "indication": "Atemnot",
+      "max_daily_dose": "8 Hub/Tag",
+      "prescriber": "Dr. Aydin"
+    }
+  ]
+}

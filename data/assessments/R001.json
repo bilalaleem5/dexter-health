@@ -1,0 +1,12 @@
+{
+  "resident_id": "R001",
+  "assessments": [
+    {"date": "2024-05-15", "instrument": "Barthel", "score": 70, "max": 100, "note": "leichte Hilfebedürftigkeit, selbstständiger Transfer, Gehen mit Rollator"},
+    {"date": "2024-05-15", "instrument": "MMST", "score": 27, "max": 30, "note": "kognitiv unauffällig"},
+    {"date": "2024-05-15", "instrument": "Braden", "score": 20, "max": 23, "note": "geringes Dekubitusrisiko"},
+    {"date": "2025-05-20", "instrument": "Barthel", "score": 70, "max": 100, "note": "stabil zum Vorjahr"},
+    {"date": "2025-05-20", "instrument": "Braden", "score": 20, "max": 23, "note": "geringes Risiko, Hautstatus intakt"},
+    {"date": "2026-03-30", "instrument": "Barthel", "score": 65, "max": 100, "note": "marginal, Belastbarkeit bei Belastungsdyspnoe etwas reduziert"},
+    {"date": "2026-03-30", "instrument": "MMST", "score": 27, "max": 30, "note": "kognitiv weiterhin unauffällig"}
+  ]
+}

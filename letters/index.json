@@ -1,0 +1,42 @@
+[
+  {
+    "letter_id": "letter_01",
+    "resident_id": "R001",
+    "hospital": "Klinikum Köln-Süd, Klinik für Innere Medizin III - Kardiologie",
+    "admission_date": "2026-05-12",
+    "discharge_date": "2026-05-26",
+    "file": "letter_01.md"
+  },
+  {
+    "letter_id": "letter_02",
+    "resident_id": "R002",
+    "hospital": "St. Vinzenz-Krankenhaus Köln, Klinik für Unfallchirurgie und Orthopädie",
+    "admission_date": "2026-05-18",
+    "discharge_date": "2026-06-02",
+    "file": "letter_02.md"
+  },
+  {
+    "letter_id": "letter_03",
+    "resident_id": "R003",
+    "hospital": "Herzzentrum Köln, Klinik für Kardiologie",
+    "admission_date": "2026-05-20",
+    "discharge_date": "2026-06-01",
+    "file": "letter_03.md"
+  },
+  {
+    "letter_id": "letter_04",
+    "resident_id": "R004",
+    "hospital": "Kreiskrankenhaus Rhein-Erft, Medizinische Klinik II",
+    "admission_date": "2026-05-25",
+    "discharge_date": "2026-06-05",
+    "file": "letter_04.md"
+  },
+  {
+    "letter_id": "letter_05",
+    "resident_id": "R005",
+    "hospital": "St. Elisabeth-Krankenhaus Köln, Klinik für Geriatrie",
+    "admission_date": "2026-05-22",
+    "discharge_date": "2026-06-03",
+    "file": "letter_05.md"
+  }
+]

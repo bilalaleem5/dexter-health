@@ -1,0 +1,61 @@
+{
+  "resident_id": "R003",
+  "events": [
+    {
+      "date": "2014-10-01",
+      "action": "started",
+      "internal_name": "bisoprolol",
+      "wirkstoff": "Bisoprolol",
+      "to_dosage": "2,5 mg 1-0-0-0",
+      "reason": "Erstdiagnose arterielle Hypertonie",
+      "prescriber": "Dr. Krüger"
+    },
+    {
+      "date": "2016-05-30",
+      "action": "started",
+      "internal_name": "levothyroxin",
+      "wirkstoff": "Levothyroxin",
+      "to_dosage": "50 µg 1-0-0-0 nüchtern",
+      "reason": "Erstdiagnose Hypothyreose",
+      "prescriber": "Dr. Krüger"
+    },
+    {
+      "date": "2017-01-18",
+      "action": "dose_changed",
+      "internal_name": "levothyroxin",
+      "wirkstoff": "Levothyroxin",
+      "from_dosage": "50 µg 1-0-0-0 nüchtern",
+      "to_dosage": "75 µg 1-0-0-0 nüchtern",
+      "reason": "TSH oberhalb des Zielbereichs, Dosisanpassung",
+      "prescriber": "Dr. Krüger"
+    },
+    {
+      "date": "2021-02-11",
+      "action": "started",
+      "internal_name": "phenprocoumon",
+      "wirkstoff": "Phenprocoumon",
+      "to_dosage": "nach INR-Ausweis (Ziel-INR 2,0-3,0)",
+      "reason": "Erstdiagnose permanentes Vorhofflimmern, orale Antikoagulation",
+      "prescriber": "Dr. Krüger"
+    },
+    {
+      "date": "2021-02-11",
+      "action": "dose_changed",
+      "internal_name": "bisoprolol",
+      "wirkstoff": "Bisoprolol",
+      "from_dosage": "2,5 mg 1-0-0-0",
+      "to_dosage": "5 mg 1-0-0-0",
+      "reason": "Frequenzkontrolle bei permanentem Vorhofflimmern",
+      "prescriber": "Dr. Krüger"
+    },
+    {
+      "date": "2021-03-04",
+      "action": "started",
+      "internal_name": "pantoprazol",
+      "wirkstoff": "Pantoprazol",
+      "to_dosage": "20 mg 1-0-0-0",
+      "reason": "Magenschutz unter oraler Antikoagulation",
+      "prescriber": "Dr. Krüger"
+    }
+  ]
+}

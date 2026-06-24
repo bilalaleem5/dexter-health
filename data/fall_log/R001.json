@@ -1,0 +1,14 @@
+{
+  "resident_id": "R001",
+  "falls": [
+    {
+      "date": "2025-09-12",
+      "time": "06:40",
+      "location": "Bewohnerzimmer, am Bett",
+      "circumstances": "Beim morgendlichen Aufstehen abgestützt und auf das Bett zurückgesunken, kein Sturz zu Boden. Beinahe-Sturz, vom Nachtdienst beobachtet.",
+      "injury": "keine",
+      "measures": "Aufstehtraining über Physiotherapie, Anti-Rutsch-Socken, Rollator in Reichweite",
+      "witnessed": true
+    }
+  ]
+}

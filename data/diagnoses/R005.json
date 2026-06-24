@@ -1,0 +1,29 @@
+{
+  "resident_id": "R005",
+  "diagnoses": [
+    {
+      "diagnose": "Z.n. zerebraler Ischämie mit Hemiparese rechts",
+      "internal_diagnose": "stroke_sequelae",
+      "icd10": "I69.3",
+      "noted_at": "2023-08-19"
+    },
+    {
+      "diagnose": "Demenz",
+      "internal_diagnose": "dementia",
+      "icd10": "F03",
+      "noted_at": "2024-01-25"
+    },
+    {
+      "diagnose": "Arterielle Hypertonie",
+      "internal_diagnose": "hypertension",
+      "icd10": "I10.90",
+      "noted_at": "2019-06-12"
+    },
+    {
+      "diagnose": "Asthma bronchiale, schwergradig persistierend (GINA-Stufe 4, ICS/LABA-Dauertherapie); Z.n. Status asthmaticus 2019",
+      "internal_diagnose": "asthma_severe",
+      "icd10": "J45.50",
+      "noted_at": "2017-03-08"
+    }
+  ]
+}

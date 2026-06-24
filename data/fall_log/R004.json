@@ -1,0 +1,14 @@
+{
+  "resident_id": "R004",
+  "falls": [
+    {
+      "date": "2025-01-19",
+      "time": "21:15",
+      "location": "Bewohnerzimmer, Weg zum Bad",
+      "circumstances": "Beim nächtlichen Toilettengang nach Hustenanfall kurzatmig, an der Kommode abgestützt und langsam auf den Stuhl gesetzt. Kein Sturz zu Boden, vom Nachtdienst beobachtet.",
+      "injury": "keine",
+      "measures": "Nachtlicht aktiviert, Gehstütze in Reichweite, kurze Erholungspause vor Weitergehen, Inhalation bei Bedarf besprochen",
+      "witnessed": true
+    }
+  ]
+}

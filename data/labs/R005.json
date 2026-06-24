@@ -1,0 +1,51 @@
+{
+  "resident_id": "R005",
+  "panels": [
+    {
+      "collected_at": "2024-04-15",
+      "source": "Hausarzt Dr. Vogel (Quartalslabor)",
+      "values": [
+        {"analyte": "Kreatinin", "value": 0.9, "unit": "mg/dl", "ref_range": "0,5-0,9", "flag": ""},
+        {"analyte": "eGFR (CKD-EPI)", "value": 62, "unit": "ml/min", "ref_range": ">60", "flag": ""},
+        {"analyte": "Natrium", "value": 140, "unit": "mmol/l", "ref_range": "136-145", "flag": ""},
+        {"analyte": "Kalium", "value": 4.3, "unit": "mmol/l", "ref_range": "3,5-5,1", "flag": ""},
+        {"analyte": "CRP", "value": 3, "unit": "mg/l", "ref_range": "<5", "flag": ""},
+        {"analyte": "Hb", "value": 12.8, "unit": "g/dl", "ref_range": "12,0-16,0", "flag": ""}
+      ]
+    },
+    {
+      "collected_at": "2024-10-21",
+      "source": "Hausarzt Dr. Vogel (Quartalslabor)",
+      "values": [
+        {"analyte": "Kreatinin", "value": 0.9, "unit": "mg/dl", "ref_range": "0,5-0,9", "flag": ""},
+        {"analyte": "eGFR (CKD-EPI)", "value": 61, "unit": "ml/min", "ref_range": ">60", "flag": ""},
+        {"analyte": "Natrium", "value": 139, "unit": "mmol/l", "ref_range": "136-145", "flag": ""},
+        {"analyte": "Kalium", "value": 4.1, "unit": "mmol/l", "ref_range": "3,5-5,1", "flag": ""},
+        {"analyte": "TSH", "value": 2.1, "unit": "mU/l", "ref_range": "0,4-4,0", "flag": ""}
+      ]
+    },
+    {
+      "collected_at": "2025-05-13",
+      "source": "Hausarzt Dr. Vogel (Quartalslabor)",
+      "values": [
+        {"analyte": "Kreatinin", "value": 1.0, "unit": "mg/dl", "ref_range": "0,5-0,9", "flag": "H"},
+        {"analyte": "eGFR (CKD-EPI)", "value": 58, "unit": "ml/min", "ref_range": ">60", "flag": "L"},
+        {"analyte": "Natrium", "value": 141, "unit": "mmol/l", "ref_range": "136-145", "flag": ""},
+        {"analyte": "Kalium", "value": 4.4, "unit": "mmol/l", "ref_range": "3,5-5,1", "flag": ""},
+        {"analyte": "LDL-Cholesterin", "value": 88, "unit": "mg/dl", "ref_range": "<100", "flag": ""},
+        {"analyte": "Hb", "value": 12.5, "unit": "g/dl", "ref_range": "12,0-16,0", "flag": ""}
+      ]
+    },
+    {
+      "collected_at": "2026-02-18",
+      "source": "Hausarzt Dr. Vogel (Quartalslabor)",
+      "values": [
+        {"analyte": "Kreatinin", "value": 1.0, "unit": "mg/dl", "ref_range": "0,5-0,9", "flag": "H"},
+        {"analyte": "eGFR (CKD-EPI)", "value": 57, "unit": "ml/min", "ref_range": ">60", "flag": "L"},
+        {"analyte": "Natrium", "value": 140, "unit": "mmol/l", "ref_range": "136-145", "flag": ""},
+        {"analyte": "Kalium", "value": 4.2, "unit": "mmol/l", "ref_range": "3,5-5,1", "flag": ""},
+        {"analyte": "CRP", "value": 4, "unit": "mg/l", "ref_range": "<5", "flag": ""}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "resident_id": "R001",
+  "encounters": [
+    {
+      "date_from": "2023-04-03",
+      "date_to": "2023-04-12",
+      "type": "hospital",
+      "facility": "Klinikum Köln-Süd, Kardiologie",
+      "reason": "Erstmanifestation einer kardialen Dekompensation mit Belastungsdyspnoe und peripheren Ödemen",
+      "key_findings": "Neudiagnose Herzinsuffizienz NYHA III, eingeschränkte LV-Funktion. Echokardiografisch HFrEF.",
+      "med_changes": [
+        "Torasemid 10 mg neu angesetzt",
+        "Candesartan fortgeführt",
+        "ASS fortgeführt"
+      ],
+      "summary": "Rekompensation unter Diuretikum, Entlassung in stabilem Zustand. Empfehlung Gewichts- und Trinkmengenkontrolle über die Einrichtung, kardiologische Verlaufskontrolle."
+    },
+    {
+      "date_from": "2024-11-04",
+      "date_to": "2024-11-04",
+      "type": "specialist",
+      "facility": "Nephrologische Praxis Dr. Lehmann",
+      "reason": "Konsiliarische Beurteilung der chronischen Niereninsuffizienz",
+      "key_findings": "CKD G3b bestätigt, stabiler Verlauf. Metformin bei aktueller eGFR (~40) in reduzierter Dosis vertretbar, Reevaluation bei weiterer Verschlechterung.",
+      "med_changes": [
+        "keine Medikationsänderung",
+        "Metformin fortgeführt, jährliche Reevaluation empfohlen"
+      ],
+      "summary": "Konservatives Vorgehen, hausärztliche Verlaufskontrolle der Nierenwerte quartalsweise."
+    }
+  ]
+}

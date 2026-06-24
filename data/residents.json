@@ -1,0 +1,67 @@
+[
+  {
+    "resident_id": "R001",
+    "name": "Hildegard Brombacher",
+    "birth_year": 1942,
+    "sex": "f",
+    "room": "112",
+    "care_level": 3,
+    "hausarzt": {
+      "name": "Dr. med. Sabine Krüger",
+      "phone": "0221 555 1201"
+    },
+    "legal_guardian": null
+  },
+  {
+    "resident_id": "R002",
+    "name": "Karl-Heinz Strotmann",
+    "birth_year": 1947,
+    "sex": "m",
+    "room": "203",
+    "care_level": 2,
+    "hausarzt": {
+      "name": "Dr. med. Thomas Vogel",
+      "phone": "0221 555 8830"
+    },
+    "legal_guardian": null
+  },
+  {
+    "resident_id": "R003",
+    "name": "Elfriede Okonkwo",
+    "birth_year": 1938,
+    "sex": "f",
+    "room": "117",
+    "care_level": 3,
+    "hausarzt": {
+      "name": "Dr. med. Sabine Krüger",
+      "phone": "0221 555 1201"
+    },
+    "legal_guardian": "Tochter: Joy Okonkwo (Vorsorgevollmacht)"
+  },
+  {
+    "resident_id": "R004",
+    "name": "Walter Cebulla",
+    "birth_year": 1935,
+    "sex": "m",
+    "room": "301",
+    "care_level": 4,
+    "hausarzt": {
+      "name": "Dr. med. Murat Aydin",
+      "phone": "0221 555 4419"
+    },
+    "legal_guardian": null
+  },
+  {
+    "resident_id": "R005",
+    "name": "Anneliese Tetzlaff",
+    "birth_year": 1939,
+    "sex": "f",
+    "room": "305",
+    "care_level": 4,
+    "hausarzt": {
+      "name": "Dr. med. Thomas Vogel",
+      "phone": "0221 555 8830"
+    },
+    "legal_guardian": "Sohn: Bernd Tetzlaff (Betreuung: Gesundheitssorge)"
+  }
+]

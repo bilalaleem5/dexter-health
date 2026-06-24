@@ -1,0 +1,83 @@
+{
+  "resident_id": "R003",
+  "notes": [
+    {
+      "timestamp": "2024-06-12T09:30:00",
+      "shift": "early",
+      "author": "PK M. Sahin",
+      "text": "Quartalslabor über HA-Praxis abgenommen, INR im Zielbereich. Bew. wach, orientiert, mobil am Rollator. AZ stabil."
+    },
+    {
+      "timestamp": "2024-08-19T07:25:00",
+      "shift": "early",
+      "author": "PK A. Okafor",
+      "text": "Beim Aufstehen kurz schwindelig, auf die Bettkante zurückgesunken, kein Sturz (s. Sturzprotokoll). Langsames Aufstehen empfohlen, RR-Kontrolle unauffällig."
+    },
+    {
+      "timestamp": "2024-12-10T09:15:00",
+      "shift": "early",
+      "author": "PK M. Sahin",
+      "text": "INR-Kontrolle über HA-Praxis, Marcumar n. Plan weiter. Bew. beschwerdefrei, isst und trinkt gut."
+    },
+    {
+      "timestamp": "2025-03-18T10:00:00",
+      "shift": "early",
+      "author": "PK J. Brandt",
+      "text": "Außerplanmäßige INR-Kontrolle, HA passt Marcumar-Dosis im Ausweis an. Bew. wohlauf, keine Blutungszeichen."
+    },
+    {
+      "timestamp": "2025-06-02T15:15:00",
+      "shift": "late",
+      "author": "PK J. Brandt",
+      "text": "Beim Aufstehen vom Sessel kurz benommen, am Tisch festgehalten, kein Sturz (s. Sturzprotokoll). Hingesetzt, Beschwerden nach wenigen Minuten rückläufig."
+    },
+    {
+      "timestamp": "2025-09-08T08:10:00",
+      "shift": "early",
+      "author": "PK M. Sahin",
+      "text": "Routinekontrolle. RR 142/82, Puls 76 unregelmäßig (bek. VHF). Bew. orientiert, Hautstatus intakt."
+    },
+    {
+      "timestamp": "2025-12-16T09:20:00",
+      "shift": "early",
+      "author": "PK M. Sahin",
+      "text": "Quartalslabor über HA, INR im Ziel, Schilddrüsenwert n. Befund unauffällig. Bew. stabil, mobil am Rollator."
+    },
+    {
+      "timestamp": "2026-02-24T08:05:00",
+      "shift": "early",
+      "author": "PK A. Okafor",
+      "text": "Routine, AZ stabil. Bew. nimmt Morgenmedikation zuverlässig ein, Frühstück vollständig. Keine Beschwerden."
+    },
+    {
+      "timestamp": "2026-04-15T09:10:00",
+      "shift": "early",
+      "author": "PK M. Sahin",
+      "text": "Gewichtskontrolle 61,5 kg, stabil. INR über HA im Zielbereich. Bew. wohlauf, Tochter zu Besuch."
+    },
+    {
+      "timestamp": "2026-05-12T08:00:00",
+      "shift": "early",
+      "author": "PK M. Sahin",
+      "text": "INR-Kontrolle durch HA-Praxis erfolgt, Marcumar n. Plan weiter. Bew. wohlauf."
+    },
+    {
+      "timestamp": "2026-05-16T20:30:00",
+      "shift": "late",
+      "author": "PK J. Brandt",
+      "text": "Bew. berichtet über Schwindel beim Aufstehen. Puls 48/min, unregelmäßig. HA-Praxis informiert, Termin morgen."
+    },
+    {
+      "timestamp": "2026-05-20T10:15:00",
+      "shift": "early",
+      "author": "PK M. Sahin",
+      "text": "Bew. heute Morgen kurz kollabiert (im Bad, Tochter anwesend). Ansprechbar, RTW verständigt, Einweisung Herzzentrum."
+    },
+    {
+      "timestamp": "2026-06-01T14:45:00",
+      "shift": "late",
+      "author": "PK J. Brandt",
+      "text": "Rückkehr aus Herzzentrum. Arztbrief u. neue Medikamente (Eliquis) mitgebracht. Tochter begleitet."
+    }
+  ]
+}

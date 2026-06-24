@@ -1,0 +1,23 @@
+{
+  "resident_id": "R005",
+  "falls": [
+    {
+      "date": "2024-07-03",
+      "time": "14:20",
+      "location": "Bewohnerzimmer, vor dem Stuhl",
+      "circumstances": "Beim Transfer vom Rollstuhl auf den Sessel aus dem Stand abgerutscht, von einer Pflegekraft gehalten und langsam zu Boden geleitet. Bei bekannter Hemiparese rechts.",
+      "injury": "keine",
+      "measures": "Transfer künftig konsequent mit 2 Pflegekräften, Antirutsch-Unterlage, Dokumentation im Sturzrisikoassessment",
+      "witnessed": true
+    },
+    {
+      "date": "2025-06-28",
+      "time": "21:50",
+      "location": "Bewohnerzimmer, am Bett",
+      "circumstances": "Abends beim Versuch, selbstständig aufzustehen, neben das Bett auf den Boden geglitten. Unbeobachtet, von der Nachtschwache am Boden sitzend vorgefunden.",
+      "injury": "leichte Prellung re. Hüfte, keine Fraktur, kein Klinikbedarf",
+      "measures": "Niederflurbett, Sensormatte, Klingel in Reichweite, Bewegungsmelder aktiviert",
+      "witnessed": false
+    }
+  ]
+}

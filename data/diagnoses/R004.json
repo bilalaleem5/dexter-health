@@ -1,0 +1,17 @@
+{
+  "resident_id": "R004",
+  "diagnoses": [
+    {
+      "diagnose": "COPD GOLD III",
+      "internal_diagnose": "copd",
+      "icd10": "J44.89",
+      "noted_at": "2017-11-23"
+    },
+    {
+      "diagnose": "Arterielle Hypertonie",
+      "internal_diagnose": "hypertension",
+      "icd10": "I10.90",
+      "noted_at": "2016-02-09"
+    }
+  ]
+}

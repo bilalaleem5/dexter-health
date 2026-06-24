@@ -1,0 +1,90 @@
+{
+  "resident_id": "R001",
+  "suggestions": [
+    {
+      "alert_category": "weight_analysis",
+      "alert_subcategory": "gain_3m_yellow",
+      "alert_title": "Gewichtszunahme (3 Monate)",
+      "alert_level": "medium",
+      "created_at": "2026-05-11T10:05:00",
+      "updated_at": "2026-05-12T08:00:00",
+      "status": "closed",
+      "reason": "Gewichtszunahme von 78,4 kg auf 81,0 kg (+3,3 %) innerhalb von 10 Wochen.",
+      "relevant_info": [
+        {
+          "category": "diagnosis",
+          "title": "Herzinsuffizienz NYHA III",
+          "description": "Bekannte Herzinsuffizienz; Gewichtszunahme kann auf Flüssigkeitseinlagerung hinweisen."
+        }
+      ],
+      "potential_reasons": [
+        {
+          "category": "medical",
+          "title": "Kardiale Dekompensation",
+          "description": "Rasche Gewichtszunahme bei Herzinsuffizienz ist verdächtig auf Flüssigkeitsretention."
+        }
+      ],
+      "suggested_action": {
+        "category": "weight",
+        "title": "Verifizierungsmessung",
+        "description": "Erneute Gewichtsmessung zur Bestätigung, anschließend ggf. ärztliche Vorstellung.",
+        "subcategory": "verification"
+      },
+      "processes": [
+        {
+          "name": "verification_measurement",
+          "description": "Führe eine erneute Gewichtsmessung durch, um eine Fehlmessung auszuschließen.",
+          "status": "closed",
+          "created_at": "2026-05-11T10:05:00",
+          "updated_at": "2026-05-12T08:00:00",
+          "process_state": {
+            "suspicious_measurement": {
+              "weight": 81.0,
+              "created_at": "2026-05-11T09:00:00"
+            },
+            "baseline_measurement": {
+              "weight": 79.6,
+              "created_at": "2026-05-04T09:00:00"
+            },
+            "threshold_kg": 2.5
+          },
+          "action_logs": [
+            {
+              "created_at": "2026-05-11T10:05:00",
+              "action_type": "process_started",
+              "description": "Process 'verification_measurement' started",
+              "user_id": null,
+              "data": null
+            },
+            {
+              "created_at": "2026-05-12T08:00:00",
+              "action_type": "verification_done",
+              "description": "Bewohnerin am 12.05. ins KH eingewiesen, Verifizierung durch Klinik.",
+              "user_id": "qm_petra",
+              "data": null
+            }
+          ],
+          "suggested_actions": []
+        }
+      ],
+      "analysis_steps": [],
+      "logs": [
+        {
+          "created_at": "2026-05-11T10:05:00",
+          "category": "suggestion_created",
+          "description": "Vorschlag erstellt",
+          "user_id": null,
+          "data": null
+        },
+        {
+          "created_at": "2026-05-12T08:00:00",
+          "category": "closed",
+          "description": "Geschlossen: Einweisung ins Krankenhaus am 12.05.",
+          "user_id": "qm_petra",
+          "data": null
+        }
+      ],
+      "suggestion_id": "SUG-R001-2026-05-11-gain3m"
+    }
+  ]
+}

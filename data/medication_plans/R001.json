@@ -1,0 +1,57 @@
+{
+  "resident_id": "R001",
+  "updated_at": "2026-05-02",
+  "medications_planned": [
+    {
+      "internal_name": "insulin_glargin",
+      "name": "Lantus",
+      "wirkstoff": "Insulin glargin",
+      "strength": "14",
+      "unit": "IE",
+      "dosage": "1-0-0-0 s.c.",
+      "indication": "Diabetes mellitus Typ 2",
+      "prescriber": "Dr. Krüger"
+    },
+    {
+      "internal_name": "torasemid",
+      "name": "Torasemid AL",
+      "wirkstoff": "Torasemid",
+      "strength": "10",
+      "unit": "mg",
+      "dosage": "1-0-0-0",
+      "indication": "Herzinsuffizienz",
+      "prescriber": "Dr. Krüger"
+    },
+    {
+      "internal_name": "metformin",
+      "name": "Metformin Lich",
+      "wirkstoff": "Metformin",
+      "strength": "1000",
+      "unit": "mg",
+      "dosage": "1-0-1-0",
+      "indication": "Diabetes mellitus Typ 2",
+      "prescriber": "Dr. Krüger"
+    },
+    {
+      "internal_name": "ass",
+      "name": "ASS 100 HEXAL",
+      "wirkstoff": "Acetylsalicylsäure",
+      "strength": "100",
+      "unit": "mg",
+      "dosage": "1-0-0-0",
+      "indication": "kardiovaskuläre Prophylaxe",
+      "prescriber": "Dr. Krüger"
+    },
+    {
+      "internal_name": "candesartan",
+      "name": "Candesartan Heumann",
+      "wirkstoff": "Candesartan",
+      "strength": "8",
+      "unit": "mg",
+      "dosage": "1-0-0-0",
+      "indication": "Hypertonie/Herzinsuffizienz",
+      "prescriber": "Dr. Krüger"
+    }
+  ],
+  "medications_on_demand": []
+}

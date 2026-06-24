@@ -1,0 +1,100 @@
+{
+  "resident_id": "R003",
+  "suggestions": [
+    {
+      "suggestion_id": "followup-649d4a00e6e567bc",
+      "resident_id": "R003",
+      "alert_category": "discharge_followup",
+      "alert_subcategory": "bisoprolol_reevaluation",
+      "alert_title": "Re-Evaluation der pausierten Bisoprolol-Therapie durch die Hausärztin in 4 Woche",
+      "alert_level": "medium",
+      "reason": "Aus akzeptiertem Vorschlag 649d4a00e6e567bc (Brief letter_03). Vorschlag durch Pflegekraft am 2026-06-01 akzeptiert.",
+      "relevant_info": [],
+      "potential_reasons": [],
+      "analysis_steps": [],
+      "suggested_action": null,
+      "status": "active",
+      "created_at": "2026-06-24T09:42:10.990015Z",
+      "updated_at": "2026-06-24T09:42:10.990017Z",
+      "pipeline_name": null,
+      "logs": [],
+      "data": null,
+      "processes": [
+        {
+          "name": "clinical_followup",
+          "description": "Wartet auf einen dokumentierten Folgekontakt (Hausarzt/Facharzt) zur Umsetzung einer Entlassungsbrief-Empfehlung.",
+          "status": "active",
+          "created_at": "2026-06-24T09:42:10.989515+00:00",
+          "updated_at": "2026-07-04T09:42:10.990017+00:00",
+          "process_state": {
+            "due_date": "2026-06-29T00:00:00+00:00",
+            "task_description": "Re-Evaluation der pausierten Bisoprolol-Therapie durch die Hausärztin in 4 Wochen (siehe letter_03.md, Procedere).",
+            "proposal_target_entity": "bisoprolol_reevaluation__due+28d",
+            "started_at": "2026-06-01T10:00:00+00:00",
+            "overdue_flagged": true
+          },
+          "depends_on": [],
+          "action_logs": [
+            {
+              "created_at": "2026-06-01T10:00:00+00:00",
+              "action_type": "process_started",
+              "description": "Process 'clinical_followup' started",
+              "user_id": null,
+              "data": null
+            },
+            {
+              "created_at": "2026-06-01T10:00:00+00:00",
+              "action_type": "status_changed",
+              "description": "Status changed: pending → active",
+              "user_id": null,
+              "data": {
+                "old_status": "pending",
+                "new_status": "active"
+              }
+            },
+            {
+              "created_at": "2026-06-01T10:00:00+00:00",
+              "action_type": "status_changed",
+              "description": "Folgeaufgabe angelegt: Re-Evaluation der pausierten Bisoprolol-Therapie durch die Hausärztin in 4 Wochen (siehe letter_03.md, Procedere).",
+              "user_id": null,
+              "data": {
+                "due_date": "2026-06-29T00:00:00+00:00"
+              }
+            },
+            {
+              "created_at": "2026-07-04T09:42:10.990017+00:00",
+              "action_type": "status_changed",
+              "description": "Fällig und noch nicht dokumentiert: Re-Evaluation der pausierten Bisoprolol-Therapie durch die Hausärztin in 4 Wochen (siehe letter_03.md, Procedere).",
+              "user_id": null,
+              "data": {
+                "outcome": "overdue",
+                "escalate": true,
+                "due_date": "2026-06-29T00:00:00+00:00"
+              }
+            }
+          ],
+          "suggested_actions": [
+            {
+              "action_id": "schedule_followup",
+              "label": "Aufgabe/Termin angelegt",
+              "description": "Eine Erinnerung bzw. ein Termin für den Folgekontakt wurde angelegt; warte auf den dokumentierten Kontakt.",
+              "icon": "task",
+              "requires_input": false,
+              "confirmation_required": true,
+              "update_status_to": "waiting"
+            },
+            {
+              "action_id": "mark_done_now",
+              "label": "Bereits erledigt",
+              "description": "Der Folgekontakt liegt bereits vor / wurde anderweitig bestätigt.",
+              "icon": "check",
+              "requires_input": false,
+              "confirmation_required": true,
+              "update_status_to": "closed"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

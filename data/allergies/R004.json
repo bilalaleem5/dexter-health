@@ -1,0 +1,10 @@
+{
+  "resident_id": "R004",
+  "allergies": [
+    {
+      "substance": "Penicillin",
+      "reaction": "generalisiertes Exanthem",
+      "noted_at": "2019-06-14"
+    }
+  ]
+}

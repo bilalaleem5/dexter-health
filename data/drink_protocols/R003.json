@@ -1,0 +1,19 @@
+{
+  "resident_id": "R003",
+  "target_ml": 1500,
+  "strategy": "encourage",
+  "entries": [
+    {
+      "timestamp": "2026-05-18T09:00:00",
+      "amount_ml": 300
+    },
+    {
+      "timestamp": "2026-05-18T14:30:00",
+      "amount_ml": 400
+    },
+    {
+      "timestamp": "2026-05-19T11:00:00",
+      "amount_ml": 350
+    }
+  ]
+}

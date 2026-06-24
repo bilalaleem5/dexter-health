@@ -1,0 +1,78 @@
+{
+  "resident_id": "R001",
+  "events": [
+    {
+      "date": "2015-03-20",
+      "action": "started",
+      "internal_name": "candesartan",
+      "wirkstoff": "Candesartan",
+      "to_dosage": "8 mg 1-0-0-0",
+      "reason": "Erstdiagnose arterielle Hypertonie",
+      "prescriber": "Dr. Krüger"
+    },
+    {
+      "date": "2015-03-20",
+      "action": "started",
+      "internal_name": "ass",
+      "wirkstoff": "Acetylsalicylsäure",
+      "to_dosage": "100 mg 1-0-0-0",
+      "reason": "kardiovaskuläre Primärprophylaxe",
+      "prescriber": "Dr. Krüger"
+    },
+    {
+      "date": "2019-09-02",
+      "action": "started",
+      "internal_name": "metformin",
+      "wirkstoff": "Metformin",
+      "to_dosage": "1000 mg 1-0-1-0",
+      "reason": "Erstdiagnose Diabetes mellitus Typ 2",
+      "prescriber": "Dr. Krüger"
+    },
+    {
+      "date": "2021-06-14",
+      "action": "started",
+      "internal_name": "insulin_glargin",
+      "wirkstoff": "Insulin glargin",
+      "to_dosage": "10 IE 1-0-0-0 s.c.",
+      "reason": "unzureichende BZ-Einstellung unter oraler Therapie, insulinpflichtig",
+      "prescriber": "Dr. Krüger"
+    },
+    {
+      "date": "2023-02-09",
+      "action": "dose_changed",
+      "internal_name": "insulin_glargin",
+      "wirkstoff": "Insulin glargin",
+      "from_dosage": "10 IE 1-0-0-0 s.c.",
+      "to_dosage": "14 IE 1-0-0-0 s.c.",
+      "reason": "Nüchtern-BZ wiederholt erhöht, Titration",
+      "prescriber": "Dr. Krüger"
+    },
+    {
+      "date": "2023-04-12",
+      "action": "started",
+      "internal_name": "torasemid",
+      "wirkstoff": "Torasemid",
+      "to_dosage": "10 mg 1-0-0-0",
+      "reason": "Erstdiagnose Herzinsuffizienz NYHA III nach stationärer Dekompensation",
+      "prescriber": "Klinikum Köln-Süd / Dr. Krüger"
+    },
+    {
+      "date": "2024-11-05",
+      "action": "started",
+      "internal_name": "cefuroxim",
+      "wirkstoff": "Cefuroxim",
+      "to_dosage": "250 mg 1-0-1-0",
+      "reason": "unkomplizierter Harnwegsinfekt, befristet 5 Tage",
+      "prescriber": "Dr. Krüger"
+    },
+    {
+      "date": "2024-11-10",
+      "action": "stopped",
+      "internal_name": "cefuroxim",
+      "wirkstoff": "Cefuroxim",
+      "from_dosage": "250 mg 1-0-1-0",
+      "reason": "Antibiose planmäßig beendet, Infekt ausgeheilt",
+      "prescriber": "Dr. Krüger"
+    }
+  ]
+}

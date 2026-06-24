@@ -1,0 +1,31 @@
+{
+  "resident_id": "R002",
+  "encounters": [
+    {
+      "date_from": "2024-03-14",
+      "date_to": "2024-03-22",
+      "type": "hospital",
+      "facility": "St. Vinzenz-Krankenhaus Köln, Innere Medizin / Gastroenterologie",
+      "reason": "Akute obere gastrointestinale Blutung mit Teerstuhl und Hb-Abfall",
+      "key_findings": "Ösophagogastroduodenoskopie: Ulcus ventriculi mit Blutung Forrest IIb, endoskopisch erfolgreich gestillt (Unterspritzung und Clip). Hb im Verlauf stabilisiert, keine Transfusionspflichtigkeit. Helicobacter-pylori-Test negativ.",
+      "med_changes": [
+        "Pantoprazol 40 mg 1-0-0-0 neu angesetzt zur Ulkusabheilung",
+        "Amlodipin fortgeführt",
+        "Simvastatin fortgeführt"
+      ],
+      "summary": "Komplikationslose endoskopische Blutstillung, Entlassung in stabilem Zustand. Empfehlung: Kontroll-Gastroskopie nach ca. 8-12 Wochen, PPI bis zur bestätigten Abheilung, danach Reevaluation. Künftig zurückhaltender Einsatz magenschädigender Medikation (insbesondere NSAR)."
+    },
+    {
+      "date_from": "2024-06-26",
+      "date_to": "2024-06-26",
+      "type": "specialist",
+      "facility": "Gastroenterologische Praxis Dr. Hartmann",
+      "reason": "Kontroll-Gastroskopie nach oberer GI-Blutung",
+      "key_findings": "Ulcus ventriculi vollständig abgeheilt, reizlose Narbe, keine Blutungszeichen. Kein Anhalt für Malignität (Histologie unauffällig).",
+      "med_changes": [
+        "Pantoprazol nach bestätigter Abheilung planmäßig ausgeschlichen und beendet, keine PPI-Dauerindikation"
+      ],
+      "summary": "Befund abgeschlossen, keine weitere gastroenterologische Kontrolle erforderlich. Hausärztliche Weiterbetreuung."
+    }
+  ]
+}

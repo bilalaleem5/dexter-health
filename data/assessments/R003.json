@@ -1,0 +1,15 @@
+{
+  "resident_id": "R003",
+  "assessments": [
+    {"date": "2024-04-22", "instrument": "Barthel", "score": 65, "max": 100, "note": "selbstständiger Transfer, mobil am Rollator, leichte Hilfe bei der Körperpflege"},
+    {"date": "2024-04-22", "instrument": "MMST", "score": 28, "max": 30, "note": "kognitiv unauffällig"},
+    {"date": "2024-04-22", "instrument": "Braden", "score": 20, "max": 23, "note": "geringes Dekubitusrisiko, Hautstatus intakt"},
+    {"date": "2024-10-14", "instrument": "Timed-up-and-go", "score": 19, "max": null, "note": "19 s mit Rollator, sicheres Gangbild"},
+    {"date": "2025-04-28", "instrument": "Barthel", "score": 65, "max": 100, "note": "stabil zum Vorjahr"},
+    {"date": "2025-04-28", "instrument": "Braden", "score": 20, "max": 23, "note": "geringes Risiko, Haut intakt"},
+    {"date": "2025-04-28", "instrument": "MMST", "score": 27, "max": 30, "note": "kognitiv weiterhin unauffällig"},
+    {"date": "2025-11-06", "instrument": "Timed-up-and-go", "score": 21, "max": null, "note": "21 s mit Rollator, Gangbild weiterhin sicher"},
+    {"date": "2026-04-09", "instrument": "Barthel", "score": 60, "max": 100, "note": "weitgehend stabil, etwas mehr Unterstützung beim Baden"},
+    {"date": "2026-04-09", "instrument": "Braden", "score": 19, "max": 23, "note": "geringes Dekubitusrisiko"}
+  ]
+}

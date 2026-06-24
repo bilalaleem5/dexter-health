@@ -1,0 +1,48 @@
+{
+  "resident_id": "R002",
+  "updated_at": "2026-04-28",
+  "medications_planned": [
+    {
+      "internal_name": "amlodipin",
+      "name": "Amlodipin Dexcel",
+      "wirkstoff": "Amlodipin",
+      "strength": "5",
+      "unit": "mg",
+      "dosage": "1-0-0-0",
+      "indication": "Hypertonie",
+      "prescriber": "Dr. Vogel"
+    },
+    {
+      "internal_name": "simvastatin",
+      "name": "SimvaHEXAL",
+      "wirkstoff": "Simvastatin",
+      "strength": "20",
+      "unit": "mg",
+      "dosage": "0-0-1-0",
+      "indication": "Hyperlipidämie",
+      "prescriber": "Dr. Vogel"
+    },
+    {
+      "internal_name": "colecalciferol",
+      "name": "Vigantol",
+      "wirkstoff": "Colecalciferol",
+      "strength": "1000",
+      "unit": "IE",
+      "dosage": "1-0-0-0",
+      "indication": "Vitamin-D-Substitution",
+      "prescriber": "Dr. Vogel"
+    }
+  ],
+  "medications_on_demand": [
+    {
+      "internal_name": "metamizol",
+      "name": "Novalgin Tropfen",
+      "wirkstoff": "Metamizol",
+      "strength": "500",
+      "unit": "mg (20 Tropfen)",
+      "indication": "Schmerzen (Hüfte)",
+      "max_daily_dose": "4 x 1 g (max. 4 g/Tag)",
+      "prescriber": "Dr. Vogel"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "resident_id": "R002",
+  "diagnoses": [
+    {
+      "diagnose": "Arterielle Hypertonie",
+      "internal_diagnose": "hypertension",
+      "icd10": "I10.90",
+      "noted_at": "2018-01-15"
+    },
+    {
+      "diagnose": "Hyperlipidämie",
+      "internal_diagnose": "hyperlipidemia",
+      "icd10": "E78.5",
+      "noted_at": "2018-01-15"
+    },
+    {
+      "diagnose": "Coxarthrose beidseits",
+      "internal_diagnose": "coxarthrosis",
+      "icd10": "M16.0",
+      "noted_at": "2022-07-08"
+    },
+    {
+      "diagnose": "Z.n. oberer gastrointestinaler Blutung bei Ulcus ventriculi (Forrest IIb, endoskopisch gestillt 03/2024)",
+      "internal_diagnose": "gi_bleed_ulcer_history",
+      "icd10": "Z87.1",
+      "noted_at": "2024-03-15"
+    }
+  ]
+}

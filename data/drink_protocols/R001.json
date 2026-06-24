@@ -1,0 +1,47 @@
+{
+  "resident_id": "R001",
+  "target_ml": 2000,
+  "strategy": "encourage",
+  "entries": [
+    {
+      "timestamp": "2026-05-09T09:00:00",
+      "amount_ml": 300
+    },
+    {
+      "timestamp": "2026-05-09T12:30:00",
+      "amount_ml": 400
+    },
+    {
+      "timestamp": "2026-05-09T16:00:00",
+      "amount_ml": 250
+    },
+    {
+      "timestamp": "2026-05-09T19:30:00",
+      "amount_ml": 350
+    },
+    {
+      "timestamp": "2026-05-10T09:00:00",
+      "amount_ml": 350
+    },
+    {
+      "timestamp": "2026-05-10T13:00:00",
+      "amount_ml": 300
+    },
+    {
+      "timestamp": "2026-05-10T18:00:00",
+      "amount_ml": 400
+    },
+    {
+      "timestamp": "2026-05-11T09:30:00",
+      "amount_ml": 300
+    },
+    {
+      "timestamp": "2026-05-11T14:00:00",
+      "amount_ml": 450
+    },
+    {
+      "timestamp": "2026-05-11T19:00:00",
+      "amount_ml": 300
+    }
+  ]
+}

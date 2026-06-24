@@ -1,0 +1,68 @@
+{
+  "resident_id": "R004",
+  "events": [
+    {
+      "date": "2016-02-15",
+      "action": "started",
+      "internal_name": "ramipril",
+      "wirkstoff": "Ramipril",
+      "to_dosage": "5 mg 1-0-0-0",
+      "reason": "Erstdiagnose arterielle Hypertonie",
+      "prescriber": "Dr. Aydin"
+    },
+    {
+      "date": "2017-12-01",
+      "action": "started",
+      "internal_name": "tiotropium",
+      "wirkstoff": "Tiotropiumbromid",
+      "to_dosage": "18 µg 1-0-0-0 inhalativ",
+      "reason": "Erstdiagnose COPD GOLD III, inhalative Dauertherapie",
+      "prescriber": "Dr. Aydin"
+    },
+    {
+      "date": "2017-12-01",
+      "action": "started",
+      "internal_name": "salbutamol",
+      "wirkstoff": "Salbutamol",
+      "to_dosage": "100 µg/Hub bei Bedarf, max. 8 Hub/Tag",
+      "reason": "Bedarfsmedikation bei Atemnot",
+      "prescriber": "Dr. Aydin"
+    },
+    {
+      "date": "2024-03-08",
+      "action": "started",
+      "internal_name": "moxifloxacin",
+      "wirkstoff": "Moxifloxacin",
+      "to_dosage": "400 mg 1-0-0-0",
+      "reason": "infektexazerbierte COPD, kalkulierte Antibiose (Penicillin-Allergie beachtet), befristet 5 Tage",
+      "prescriber": "Dr. Aydin"
+    },
+    {
+      "date": "2024-03-08",
+      "action": "started",
+      "internal_name": "prednisolon",
+      "wirkstoff": "Prednisolon",
+      "to_dosage": "20 mg 1-0-0-0, Ausschleichschema",
+      "reason": "systemische Steroidstoßtherapie bei COPD-Exazerbation, befristet",
+      "prescriber": "Dr. Aydin"
+    },
+    {
+      "date": "2024-03-13",
+      "action": "stopped",
+      "internal_name": "moxifloxacin",
+      "wirkstoff": "Moxifloxacin",
+      "from_dosage": "400 mg 1-0-0-0",
+      "reason": "Antibiose planmäßig beendet, Exazerbation rückläufig",
+      "prescriber": "Dr. Aydin"
+    },
+    {
+      "date": "2024-03-22",
+      "action": "stopped",
+      "internal_name": "prednisolon",
+      "wirkstoff": "Prednisolon",
+      "from_dosage": "5 mg 1-0-0-0",
+      "reason": "Steroid planmäßig ausgeschlichen und abgesetzt",
+      "prescriber": "Dr. Aydin"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "resident_id": "R004",
+  "assessments": [
+    {"date": "2024-04-10", "instrument": "Barthel", "score": 80, "max": 100, "note": "weitgehend selbstständig, Belastungsdyspnoe bei längeren Wegen, Gehen ohne Hilfsmittel auf Station"},
+    {"date": "2024-04-10", "instrument": "MMST", "score": 28, "max": 30, "note": "kognitiv unauffällig"},
+    {"date": "2024-04-10", "instrument": "Braden", "score": 21, "max": 23, "note": "geringes Dekubitusrisiko"},
+    {"date": "2025-04-22", "instrument": "Barthel", "score": 80, "max": 100, "note": "stabil zum Vorjahr, Pausen bei Belastung wegen Atemnot"},
+    {"date": "2025-04-22", "instrument": "Braden", "score": 21, "max": 23, "note": "geringes Risiko, Hautstatus intakt"},
+    {"date": "2026-03-15", "instrument": "Barthel", "score": 80, "max": 100, "note": "unverändert selbstständig, Belastbarkeit weiter durch COPD limitiert"},
+    {"date": "2026-03-15", "instrument": "MMST", "score": 28, "max": 30, "note": "kognitiv weiterhin unauffällig"}
+  ]
+}

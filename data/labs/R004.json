@@ -1,0 +1,63 @@
+{
+  "resident_id": "R004",
+  "panels": [
+    {
+      "collected_at": "2024-04-15",
+      "source": "Hausarzt Dr. Aydin (Quartalslabor, nach Exazerbation)",
+      "values": [
+        {"analyte": "CRP", "value": 4.0, "unit": "mg/l", "ref_range": "<5", "flag": ""},
+        {"analyte": "Leukozyten", "value": 7.8, "unit": "/nl", "ref_range": "3,9-10,2", "flag": ""},
+        {"analyte": "Eosinophile", "value": 0.12, "unit": "/nl", "ref_range": "0,02-0,50", "flag": ""},
+        {"analyte": "Kreatinin", "value": 1.0, "unit": "mg/dl", "ref_range": "0,7-1,2", "flag": ""},
+        {"analyte": "eGFR (CKD-EPI)", "value": 74, "unit": "ml/min", "ref_range": ">60", "flag": ""},
+        {"analyte": "Kalium", "value": 4.4, "unit": "mmol/l", "ref_range": "3,5-5,1", "flag": ""},
+        {"analyte": "Natrium", "value": 140, "unit": "mmol/l", "ref_range": "136-145", "flag": ""}
+      ]
+    },
+    {
+      "collected_at": "2024-11-12",
+      "source": "Pneumologische Praxis Dr. Reinhardt (Verlaufskontrolle COPD)",
+      "values": [
+        {"analyte": "Eosinophile", "value": 0.14, "unit": "/nl", "ref_range": "0,02-0,50", "flag": ""},
+        {"analyte": "Hämoglobin", "value": 14.2, "unit": "g/dl", "ref_range": "13,5-17,2", "flag": ""},
+        {"analyte": "BGA pO2 (Raumluft)", "value": 63, "unit": "mmHg", "ref_range": "75-100", "flag": "L"},
+        {"analyte": "BGA pCO2 (Raumluft)", "value": 47, "unit": "mmHg", "ref_range": "35-45", "flag": "H"},
+        {"analyte": "BGA pH", "value": 7.40, "unit": "", "ref_range": "7,35-7,45", "flag": ""}
+      ]
+    },
+    {
+      "collected_at": "2025-06-20",
+      "source": "Hausarzt Dr. Aydin (Quartalslabor)",
+      "values": [
+        {"analyte": "CRP", "value": 3.0, "unit": "mg/l", "ref_range": "<5", "flag": ""},
+        {"analyte": "Leukozyten", "value": 7.1, "unit": "/nl", "ref_range": "3,9-10,2", "flag": ""},
+        {"analyte": "Kreatinin", "value": 1.1, "unit": "mg/dl", "ref_range": "0,7-1,2", "flag": ""},
+        {"analyte": "eGFR (CKD-EPI)", "value": 71, "unit": "ml/min", "ref_range": ">60", "flag": ""},
+        {"analyte": "Kalium", "value": 4.5, "unit": "mmol/l", "ref_range": "3,5-5,1", "flag": ""},
+        {"analyte": "Natrium", "value": 139, "unit": "mmol/l", "ref_range": "136-145", "flag": ""}
+      ]
+    },
+    {
+      "collected_at": "2025-11-18",
+      "source": "Pneumologische Praxis Dr. Reinhardt (Verlaufskontrolle COPD)",
+      "values": [
+        {"analyte": "Eosinophile", "value": 0.13, "unit": "/nl", "ref_range": "0,02-0,50", "flag": ""},
+        {"analyte": "BGA pO2 (Raumluft)", "value": 64, "unit": "mmHg", "ref_range": "75-100", "flag": "L"},
+        {"analyte": "BGA pCO2 (Raumluft)", "value": 46, "unit": "mmHg", "ref_range": "35-45", "flag": "H"},
+        {"analyte": "BGA pH", "value": 7.41, "unit": "", "ref_range": "7,35-7,45", "flag": ""}
+      ]
+    },
+    {
+      "collected_at": "2026-03-10",
+      "source": "Hausarzt Dr. Aydin (Quartalslabor)",
+      "values": [
+        {"analyte": "CRP", "value": 3.0, "unit": "mg/l", "ref_range": "<5", "flag": ""},
+        {"analyte": "Leukozyten", "value": 7.4, "unit": "/nl", "ref_range": "3,9-10,2", "flag": ""},
+        {"analyte": "Kreatinin", "value": 1.1, "unit": "mg/dl", "ref_range": "0,7-1,2", "flag": ""},
+        {"analyte": "eGFR (CKD-EPI)", "value": 70, "unit": "ml/min", "ref_range": ">60", "flag": ""},
+        {"analyte": "Kalium", "value": 4.6, "unit": "mmol/l", "ref_range": "3,5-5,1", "flag": ""},
+        {"analyte": "Natrium", "value": 140, "unit": "mmol/l", "ref_range": "136-145", "flag": ""}
+      ]
+    }
+  ]
+}

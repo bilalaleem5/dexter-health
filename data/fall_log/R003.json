@@ -1,0 +1,23 @@
+{
+  "resident_id": "R003",
+  "falls": [
+    {
+      "date": "2024-08-19",
+      "time": "07:20",
+      "location": "Bewohnerzimmer, beim Bett",
+      "circumstances": "Beim morgendlichen Aufstehen kurz schwindelig geworden und auf die Bettkante zurückgesunken, kein Sturz zu Boden. Beinahe-Sturz, vom Frühdienst beobachtet.",
+      "injury": "keine",
+      "measures": "kurze Beobachtung, langsames Aufstehen empfohlen, Rollator in Reichweite gestellt. RR-Kontrolle unauffällig.",
+      "witnessed": true
+    },
+    {
+      "date": "2025-06-02",
+      "time": "15:10",
+      "location": "Aufenthaltsraum",
+      "circumstances": "Beim Aufstehen vom Sessel kurzzeitig unsicher und benommen, hat sich am Tisch festgehalten, kein Sturz. Unbeobachtet begonnen, von Mitbewohnerin gemeldet.",
+      "injury": "keine",
+      "measures": "hingesetzt, beobachtet, Beschwerden nach wenigen Minuten rückläufig. HA bei nächster Visite informiert, keine Anordnung.",
+      "witnessed": false
+    }
+  ]
+}

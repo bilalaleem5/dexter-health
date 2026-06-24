@@ -1,0 +1,68 @@
+{
+  "resident_id": "R005",
+  "updated_at": "2026-05-05",
+  "medications_planned": [
+    {
+      "internal_name": "ass",
+      "name": "ASS 100 HEXAL",
+      "wirkstoff": "Acetylsalicylsäure",
+      "strength": "100",
+      "unit": "mg",
+      "dosage": "1-0-0-0",
+      "indication": "Sekundärprophylaxe nach Schlaganfall",
+      "prescriber": "Dr. Vogel"
+    },
+    {
+      "internal_name": "atorvastatin",
+      "name": "Atorvastatin BASICS",
+      "wirkstoff": "Atorvastatin",
+      "strength": "20",
+      "unit": "mg",
+      "dosage": "0-0-1-0",
+      "indication": "Sekundärprophylaxe",
+      "prescriber": "Dr. Vogel"
+    },
+    {
+      "internal_name": "donepezil",
+      "name": "Donepezil Heumann",
+      "wirkstoff": "Donepezil",
+      "strength": "5",
+      "unit": "mg",
+      "dosage": "0-0-1-0",
+      "indication": "Demenz",
+      "prescriber": "Dr. Vogel"
+    },
+    {
+      "internal_name": "budesonid_formoterol",
+      "name": "Symbicort Turbohaler",
+      "wirkstoff": "Budesonid/Formoterol",
+      "strength": "160/4,5",
+      "unit": "µg/Hub",
+      "dosage": "1-0-1 (je 1 Hub)",
+      "indication": "Asthma bronchiale (Dauertherapie)",
+      "prescriber": "Dr. Vogel"
+    }
+  ],
+  "medications_on_demand": [
+    {
+      "internal_name": "macrogol",
+      "name": "Movicol",
+      "wirkstoff": "Macrogol",
+      "strength": "1",
+      "unit": "Beutel",
+      "indication": "Obstipation",
+      "max_daily_dose": "3 Beutel/Tag",
+      "prescriber": "Dr. Vogel"
+    },
+    {
+      "internal_name": "salbutamol",
+      "name": "SalbuHEXAL Spray",
+      "wirkstoff": "Salbutamol",
+      "strength": "100",
+      "unit": "µg/Hub",
+      "indication": "Asthma (Bedarf)",
+      "max_daily_dose": "max. 8 Hübe/Tag",
+      "prescriber": "Dr. Vogel"
+    }
+  ]
+}

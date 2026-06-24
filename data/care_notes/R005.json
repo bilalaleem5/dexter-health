@@ -1,0 +1,107 @@
+{
+  "resident_id": "R005",
+  "notes": [
+    {
+      "timestamp": "2024-03-04T09:20:00",
+      "shift": "early",
+      "author": "PK M. Sahin",
+      "text": "Bew. mit 2 PK in den Rollstuhl mobilisiert. Hemiparese re. unverändert. Haut intakt, Dekubitusprophylaxe und Lagerung nach Plan. Inhalation Symbicort morgens durchgeführt."
+    },
+    {
+      "timestamp": "2024-06-17T16:10:00",
+      "shift": "late",
+      "author": "PK L. Petersen",
+      "text": "Bew. zeitweise unruhig, sucht Tochter. Nach Zuwendung beruhigt. Atmung ruhig, keine Luftnot. Abendinhalation erfolgt."
+    },
+    {
+      "timestamp": "2024-09-22T19:30:00",
+      "shift": "late",
+      "author": "PK J. Brandt",
+      "text": "Urin konzentriert, Bew. greift sich an den Unterleib. Temp 37,6 °C. HA informiert, Urinkontrolle veranlasst, Trinkmenge anbieten."
+    },
+    {
+      "timestamp": "2024-09-30T08:30:00",
+      "shift": "early",
+      "author": "PK M. Sahin",
+      "text": "Knöchelödeme bds. seit Tagen, HA-Visite: Amlodipin abgesetzt. Haut intakt, keine Druckstellen. AZ stabil."
+    },
+    {
+      "timestamp": "2025-01-13T08:50:00",
+      "shift": "early",
+      "author": "PK A. Okafor",
+      "text": "Routine. Bew. ruhig, nimmt Frühstück mit Anleitung. Inhalation nach Plan. Haut unauffällig, Prophylaxe nach Plan."
+    },
+    {
+      "timestamp": "2025-03-12T20:00:00",
+      "shift": "late",
+      "author": "PK J. Brandt",
+      "text": "Brennen beim Wasserlassen, Urin trüb u. übelriechend. Temp 37,8 °C. HA informiert, Nitrofurantoin angesetzt. Trinkmenge fördern."
+    },
+    {
+      "timestamp": "2025-03-18T08:15:00",
+      "shift": "early",
+      "author": "PK M. Sahin",
+      "text": "Antibiose beendet, Infektzeichen abgeklungen, kein Brennen mehr. Urin klar. Trinkmenge weiter im Blick behalten."
+    },
+    {
+      "timestamp": "2025-08-19T15:40:00",
+      "shift": "late",
+      "author": "PK L. Petersen",
+      "text": "Jahresvisite Pflege: Transfer weiter mit 2 PK, Mobilisation in den Stuhl zu den Mahlzeiten. Haut intakt, Dekubitusprophylaxe konsequent. Asthma stabil unter Symbicort, kein Bedarfsspray nötig."
+    },
+    {
+      "timestamp": "2025-12-08T21:10:00",
+      "shift": "night",
+      "author": "PK A. Okafor",
+      "text": "Unruhige Nacht, ruft wiederholt. Nach Zuwendung und Lagerung beruhigt. Atmung frei, kein Husten."
+    },
+    {
+      "timestamp": "2026-02-12T09:00:00",
+      "shift": "early",
+      "author": "PK M. Sahin",
+      "text": "Bei der Körperpflege gerötete Hautstelle sakral aufgefallen (Grad I, wegdrückbar bei Erstbeobachtung nicht sicher). Druckentlastung und Lagerungsintervalle intensiviert, HA informiert, Verlauf beobachten."
+    },
+    {
+      "timestamp": "2026-03-16T08:40:00",
+      "shift": "early",
+      "author": "PK L. Petersen",
+      "text": "Sakrale Rötung vollständig abgeheilt, Haut wieder intakt und reizlos. Druckentlastende Lagerung wird nach Plan fortgeführt. Kein offener Druckschaden."
+    },
+    {
+      "timestamp": "2026-04-24T09:30:00",
+      "shift": "early",
+      "author": "PK A. Okafor",
+      "text": "Gewichtskontrolle 55,1 kg. Bew. isst mit Anleitung ausreichend. Haut intakt, keine Druckstellen. Inhalation nach Plan, Atmung ruhig."
+    },
+    {
+      "timestamp": "2026-05-10T08:10:00",
+      "shift": "early",
+      "author": "PK L. Petersen",
+      "text": "Bew. m. Unterstützung 1 PK in den Stuhl mobilisiert. Haut intakt, Lagerung n. Plan."
+    },
+    {
+      "timestamp": "2026-05-15T21:30:00",
+      "shift": "night",
+      "author": "PK A. Okafor",
+      "text": "Unruhige Nacht, Bew. ruft nach Tochter. Beruhigt n. Zuwendung."
+    },
+    {
+      "timestamp": "2026-05-19T19:45:00",
+      "shift": "late",
+      "author": "PK J. Brandt",
+      "text": "Trinkt schlecht, Urin konzentriert u. übelriechend. HA morgen informieren."
+    },
+    {
+      "timestamp": "2026-05-22T09:30:00",
+      "shift": "early",
+      "author": "PK L. Petersen",
+      "text": "Temp. 38,2 °C, AZ red., verwirrter als sonst. HA-Rücksprache, Einweisung St. Elisabeth (Geriatrie)."
+    },
+    {
+      "timestamp": "2026-06-03T16:20:00",
+      "shift": "late",
+      "author": "PK J. Brandt",
+      "text": "Rückkehr aus Geriatrie. Arztbrief liegt vor. Bew. müde, Haut am Steiß n. Erstversorgung m. Verband (lt. Übergabe KH)."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "resident_id": "R003",
+  "panels": [
+    {
+      "collected_at": "2024-05-08",
+      "source": "Hausärztin Dr. Krüger (INR-Kontrolle)",
+      "values": [
+        {"analyte": "INR", "value": 2.4, "unit": "", "ref_range": "Ziel 2,0-3,0", "flag": ""}
+      ]
+    },
+    {
+      "collected_at": "2024-06-12",
+      "source": "Hausärztin Dr. Krüger (Quartalslabor)",
+      "values": [
+        {"analyte": "INR", "value": 2.6, "unit": "", "ref_range": "Ziel 2,0-3,0", "flag": ""},
+        {"analyte": "TSH", "value": 2.1, "unit": "mU/l", "ref_range": "0,4-4,0", "flag": ""},
+        {"analyte": "Kreatinin", "value": 1.0, "unit": "mg/dl", "ref_range": "0,5-1,1", "flag": ""},
+        {"analyte": "eGFR (CKD-EPI)", "value": 54, "unit": "ml/min", "ref_range": ">60", "flag": "L"},
+        {"analyte": "Kalium", "value": 4.3, "unit": "mmol/l", "ref_range": "3,5-5,1", "flag": ""},
+        {"analyte": "Natrium", "value": 140, "unit": "mmol/l", "ref_range": "136-145", "flag": ""},
+        {"analyte": "Hämoglobin", "value": 12.8, "unit": "g/dl", "ref_range": "12,0-15,4", "flag": ""}
+      ]
+    },
+    {
+      "collected_at": "2024-09-03",
+      "source": "Hausärztin Dr. Krüger (INR-Kontrolle)",
+      "values": [
+        {"analyte": "INR", "value": 1.9, "unit": "", "ref_range": "Ziel 2,0-3,0", "flag": "L"}
+      ]
+    },
+    {
+      "collected_at": "2024-12-10",
+      "source": "Hausärztin Dr. Krüger (Quartalslabor)",
+      "values": [
+        {"analyte": "INR", "value": 2.7, "unit": "", "ref_range": "Ziel 2,0-3,0", "flag": ""},
+        {"analyte": "TSH", "value": 1.6, "unit": "mU/l", "ref_range": "0,4-4,0", "flag": ""},
+        {"analyte": "Kreatinin", "value": 1.0, "unit": "mg/dl", "ref_range": "0,5-1,1", "flag": ""},
+        {"analyte": "eGFR (CKD-EPI)", "value": 53, "unit": "ml/min", "ref_range": ">60", "flag": "L"},
+        {"analyte": "Kalium", "value": 4.5, "unit": "mmol/l", "ref_range": "3,5-5,1", "flag": ""}
+      ]
+    },
+    {
+      "collected_at": "2025-03-18",
+      "source": "Hausärztin Dr. Krüger (INR-Kontrolle)",
+      "values": [
+        {"analyte": "INR", "value": 3.2, "unit": "", "ref_range": "Ziel 2,0-3,0", "flag": "H"}
+      ]
+    },
+    {
+      "collected_at": "2025-06-24",
+      "source": "Hausärztin Dr. Krüger (Quartalslabor)",
+      "values": [
+        {"analyte": "INR", "value": 2.5, "unit": "", "ref_range": "Ziel 2,0-3,0", "flag": ""},
+        {"analyte": "TSH", "value": 2.4, "unit": "mU/l", "ref_range": "0,4-4,0", "flag": ""},
+        {"analyte": "Kreatinin", "value": 1.0, "unit": "mg/dl", "ref_range": "0,5-1,1", "flag": ""},
+        {"analyte": "eGFR (CKD-EPI)", "value": 52, "unit": "ml/min", "ref_range": ">60", "flag": "L"},
+        {"analyte": "Kalium", "value": 4.2, "unit": "mmol/l", "ref_range": "3,5-5,1", "flag": ""},
+        {"analyte": "Natrium", "value": 139, "unit": "mmol/l", "ref_range": "136-145", "flag": ""},
+        {"analyte": "Hämoglobin", "value": 12.5, "unit": "g/dl", "ref_range": "12,0-15,4", "flag": ""}
+      ]
+    },
+    {
+      "collected_at": "2025-09-30",
+      "source": "Hausärztin Dr. Krüger (INR-Kontrolle)",
+      "values": [
+        {"analyte": "INR", "value": 2.2, "unit": "", "ref_range": "Ziel 2,0-3,0", "flag": ""}
+      ]
+    },
+    {
+      "collected_at": "2025-12-16",
+      "source": "Hausärztin Dr. Krüger (Quartalslabor)",
+      "values": [
+        {"analyte": "INR", "value": 2.8, "unit": "", "ref_range": "Ziel 2,0-3,0", "flag": ""},
+        {"analyte": "TSH", "value": 1.9, "unit": "mU/l", "ref_range": "0,4-4,0", "flag": ""},
+        {"analyte": "Kreatinin", "value": 1.0, "unit": "mg/dl", "ref_range": "0,5-1,1", "flag": ""},
+        {"analyte": "eGFR (CKD-EPI)", "value": 52, "unit": "ml/min", "ref_range": ">60", "flag": "L"},
+        {"analyte": "Kalium", "value": 4.4, "unit": "mmol/l", "ref_range": "3,5-5,1", "flag": ""}
+      ]
+    },
+    {
+      "collected_at": "2026-03-11",
+      "source": "Hausärztin Dr. Krüger (INR-Kontrolle)",
+      "values": [
+        {"analyte": "INR", "value": 2.3, "unit": "", "ref_range": "Ziel 2,0-3,0", "flag": ""},
+        {"analyte": "TSH", "value": 2.0, "unit": "mU/l", "ref_range": "0,4-4,0", "flag": ""},
+        {"analyte": "Kreatinin", "value": 1.0, "unit": "mg/dl", "ref_range": "0,5-1,1", "flag": ""},
+        {"analyte": "eGFR (CKD-EPI)", "value": 51, "unit": "ml/min", "ref_range": ">60", "flag": "L"}
+      ]
+    }
+  ]
+}

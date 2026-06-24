@@ -1,0 +1,33 @@
+{
+  "resident_id": "R004",
+  "encounters": [
+    {
+      "date_from": "2024-03-08",
+      "date_to": "2024-03-12",
+      "type": "hospital",
+      "facility": "Kreiskrankenhaus Rhein-Erft, Innere Medizin",
+      "reason": "Infektexazerbierte COPD GOLD III mit vermehrtem Husten und Belastungsdyspnoe, kein Pneumonienachweis",
+      "key_findings": "Exazerbierte COPD ohne Infiltratnachweis im Röntgen. Respiratorisch unter Sauerstoffgabe rasch gebessert, keine LTOT-Indikation. Penicillin-Allergie aktenkundig und beachtet.",
+      "med_changes": [
+        "Moxifloxacin 400 mg befristet (Penicillin-Allergie beachtet), bei Entlassung beendet",
+        "Prednisolon-Stoßtherapie mit Ausschleichschema, im Verlauf abgesetzt",
+        "Tiotropium 18 µg inhalativ fortgeführt",
+        "Ramipril 5 mg fortgeführt"
+      ],
+      "summary": "Rekompensation der Atemwegssituation unter intensivierter Inhalation und befristeter Antibiose/Steroid. Entlassung in die Einrichtung, inhalative Dauertherapie unverändert fortgeführt."
+    },
+    {
+      "date_from": "2024-11-12",
+      "date_to": "2024-11-12",
+      "type": "specialist",
+      "facility": "Pneumologische Praxis Dr. Reinhardt",
+      "reason": "Pneumologische Verlaufskontrolle der COPD mit Lungenfunktion und BGA",
+      "key_findings": "COPD GOLD III, stabiler chronischer Verlauf. Lungenfunktion und BGA passend zum bekannten Schweregrad, keine akute Verschlechterung. Eosinophile niedrig-normal.",
+      "med_changes": [
+        "keine Medikationsänderung",
+        "inhalative Dauertherapie (Tiotropium) unverändert fortgeführt, Reevaluation bei nächster Kontrolle"
+      ],
+      "summary": "Konservatives Vorgehen, pneumologische Verlaufskontrolle in 6-12 Monaten, hausärztliche Betreuung im Übrigen."
+    }
+  ]
+}

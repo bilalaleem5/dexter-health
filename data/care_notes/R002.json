@@ -1,0 +1,95 @@
+{
+  "resident_id": "R002",
+  "notes": [
+    {
+      "timestamp": "2024-05-06T07:40:00",
+      "shift": "early",
+      "author": "PK L. Petersen",
+      "text": "Bew. seit Heimeinzug gut eingelebt, früh wach, selbstständig mobil am Rollator. Nach KH-Aufenthalt wg. Magenblutung im Frühjahr wieder voll erholt, isst und trinkt gut."
+    },
+    {
+      "timestamp": "2024-08-19T16:10:00",
+      "shift": "late",
+      "author": "PK D. Yilmaz",
+      "text": "Bew. klagt über belastungsabhängige Hüftschmerzen bds. (bek. Coxarthrose). Auf Wunsch Novalgin-Tropfen als Bedarf gegeben, danach Linderung. Geht weiter am Rollator spazieren."
+    },
+    {
+      "timestamp": "2024-11-28T22:05:00",
+      "shift": "night",
+      "author": "PK A. Okafor",
+      "text": "Ruhige Nacht, Bew. schläft durch, kein Klingeln. o.B."
+    },
+    {
+      "timestamp": "2025-03-17T08:15:00",
+      "shift": "early",
+      "author": "PK L. Petersen",
+      "text": "Routine. Bew. orientiert, gut gelaunt, mobil am Rollator. Körperpflege weitgehend selbstständig. Keine Schmerzen aktuell."
+    },
+    {
+      "timestamp": "2025-07-09T15:40:00",
+      "shift": "late",
+      "author": "PK D. Yilmaz",
+      "text": "Hüftschmerzen li. bei längerem Stehen, Bew. bittet um Novalgin-Tropfen (Bedarf). Danach beschwerdearm, nimmt am Nachmittagskaffee teil."
+    },
+    {
+      "timestamp": "2025-10-22T21:50:00",
+      "shift": "night",
+      "author": "PK A. Okafor",
+      "text": "Nachtruhe ungestört, Bew. schläft fest. Keine nächtliche Unruhe."
+    },
+    {
+      "timestamp": "2026-01-14T07:35:00",
+      "shift": "early",
+      "author": "PK L. Petersen",
+      "text": "Bew. wie gewohnt früh wach. Geht morgens selbstständig mit Rollator zum Frühstück. AZ stabil, orientiert."
+    },
+    {
+      "timestamp": "2026-03-12T10:30:00",
+      "shift": "early",
+      "author": "PK L. Petersen",
+      "text": "Jahresassessments durchgeführt (Barthel/MMST/Braden), Werte stabil zum Vorjahr. Bew. weiterhin selbstständig mobil am Rollator."
+    },
+    {
+      "timestamp": "2026-04-20T16:20:00",
+      "shift": "late",
+      "author": "PK D. Yilmaz",
+      "text": "Belastungsabhängige Hüftschmerzen, Novalgin-Tropfen bei Bedarf gegeben, gute Wirkung. Bew. abends gut gelaunt, scherzt mit Mitbewohnern."
+    },
+    {
+      "timestamp": "2026-05-08T07:30:00",
+      "shift": "early",
+      "author": "PK L. Petersen",
+      "text": "Bew. wie immer früh wach, beim Frühstück gut gelaunt. Mobil am Rollator, o.B."
+    },
+    {
+      "timestamp": "2026-05-11T22:10:00",
+      "shift": "night",
+      "author": "PK A. Okafor",
+      "text": "Nachts ruhig geschlafen, kein Klingeln."
+    },
+    {
+      "timestamp": "2026-05-14T07:45:00",
+      "shift": "early",
+      "author": "PK L. Petersen",
+      "text": "Spaziergang im Garten am Rollator, selbstständig. Orientiert, scherzt mit Mitbewohnern."
+    },
+    {
+      "timestamp": "2026-05-16T22:00:00",
+      "shift": "night",
+      "author": "PK D. Yilmaz",
+      "text": "Ruhige Nacht, Bew. schläft durch. o.B."
+    },
+    {
+      "timestamp": "2026-05-18T11:20:00",
+      "shift": "early",
+      "author": "PK L. Petersen",
+      "text": "Bew. im Flur gestürzt, starke Schmerzen li. Hüfte, Bein verkürzt u. außenrotiert. RTW, Einweisung St. Vinzenz-KH."
+    },
+    {
+      "timestamp": "2026-06-02T16:00:00",
+      "shift": "late",
+      "author": "PK D. Yilmaz",
+      "text": "Rückkehr aus KH n. Hüft-OP. Arztbrief liegt vor. Bew. müde, zu Person orientiert."
+    }
+  ]
+}

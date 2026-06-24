@@ -1,0 +1,35 @@
+{
+  "resident_id": "R003",
+  "diagnoses": [
+    {
+      "diagnose": "Vorhofflimmern, permanent",
+      "internal_diagnose": "atrial_fibrillation",
+      "icd10": "I48.2",
+      "noted_at": "2021-02-11"
+    },
+    {
+      "diagnose": "Hypothyreose",
+      "internal_diagnose": "hypothyroidism",
+      "icd10": "E03.9",
+      "noted_at": "2016-05-30"
+    },
+    {
+      "diagnose": "Arterielle Hypertonie",
+      "internal_diagnose": "hypertension",
+      "icd10": "I10.90",
+      "noted_at": "2014-10-01"
+    },
+    {
+      "diagnose": "Z.n. Katarakt-Operation beidseits",
+      "internal_diagnose": "cataract_surgery_history",
+      "icd10": "Z96.1",
+      "noted_at": "2021-09-13"
+    },
+    {
+      "diagnose": "Z.n. Hysterektomie",
+      "internal_diagnose": "hysterectomy_history",
+      "icd10": "Z90.7",
+      "noted_at": "1989-01-01"
+    }
+  ]
+}

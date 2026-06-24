@@ -1,0 +1,10 @@
+{
+  "resident_id": "R001",
+  "allergies": [
+    {
+      "substance": "Pflaster (Kleberand)",
+      "reaction": "Kontaktdermatitis",
+      "noted_at": "2024-11-03"
+    }
+  ]
+}

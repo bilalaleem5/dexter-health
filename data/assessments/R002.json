@@ -1,0 +1,14 @@
+{
+  "resident_id": "R002",
+  "assessments": [
+    {"date": "2024-04-18", "instrument": "Barthel", "score": 85, "max": 100, "note": "weitgehend selbstständig, Gehen mit Rollator, Transfer frei"},
+    {"date": "2024-04-18", "instrument": "MMST", "score": 29, "max": 30, "note": "kognitiv unauffällig, voll orientiert"},
+    {"date": "2024-04-18", "instrument": "Braden", "score": 21, "max": 23, "note": "kein erhöhtes Dekubitusrisiko"},
+    {"date": "2025-04-22", "instrument": "Barthel", "score": 85, "max": 100, "note": "stabil zum Vorjahr, selbstständig mobil am Rollator"},
+    {"date": "2025-04-22", "instrument": "Timed-up-and-go", "score": 16, "max": null, "note": "16 Sekunden mit Rollator, sicheres Gangbild, keine akute Sturzgefährdung"},
+    {"date": "2025-04-22", "instrument": "Braden", "score": 21, "max": 23, "note": "Hautstatus intakt, geringes Risiko"},
+    {"date": "2026-03-12", "instrument": "Barthel", "score": 85, "max": 100, "note": "unverändert selbstständig, Gehen mit Rollator, Körperpflege weitgehend eigenständig"},
+    {"date": "2026-03-12", "instrument": "MMST", "score": 29, "max": 30, "note": "kognitiv weiterhin unauffällig"},
+    {"date": "2026-03-12", "instrument": "Braden", "score": 21, "max": 23, "note": "geringes Dekubitusrisiko, Haut intakt"}
+  ]
+}

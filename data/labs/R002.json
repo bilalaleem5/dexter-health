@@ -1,0 +1,55 @@
+{
+  "resident_id": "R002",
+  "panels": [
+    {
+      "collected_at": "2024-04-02",
+      "source": "Hausarzt Dr. Vogel (Kontrolle nach stationärer GI-Blutung)",
+      "values": [
+        {"analyte": "Hämoglobin", "value": 10.8, "unit": "g/dl", "ref_range": "13,5-17,2", "flag": "L"},
+        {"analyte": "Hämatokrit", "value": 33, "unit": "%", "ref_range": "40-52", "flag": "L"},
+        {"analyte": "Ferritin", "value": 38, "unit": "µg/l", "ref_range": "30-400", "flag": ""},
+        {"analyte": "Kreatinin", "value": 1.2, "unit": "mg/dl", "ref_range": "0,7-1,2", "flag": ""},
+        {"analyte": "eGFR (CKD-EPI)", "value": 58, "unit": "ml/min", "ref_range": ">60", "flag": "L"}
+      ]
+    },
+    {
+      "collected_at": "2024-09-09",
+      "source": "Hausarzt Dr. Vogel (Quartalslabor)",
+      "values": [
+        {"analyte": "Hämoglobin", "value": 13.9, "unit": "g/dl", "ref_range": "13,5-17,2", "flag": ""},
+        {"analyte": "Hämatokrit", "value": 42, "unit": "%", "ref_range": "40-52", "flag": ""},
+        {"analyte": "Gesamtcholesterin", "value": 188, "unit": "mg/dl", "ref_range": "<200", "flag": ""},
+        {"analyte": "LDL-Cholesterin", "value": 108, "unit": "mg/dl", "ref_range": "<116", "flag": ""},
+        {"analyte": "Vitamin D (25-OH)", "value": 16, "unit": "ng/ml", "ref_range": "30-70", "flag": "L"},
+        {"analyte": "Kreatinin", "value": 1.2, "unit": "mg/dl", "ref_range": "0,7-1,2", "flag": ""},
+        {"analyte": "eGFR (CKD-EPI)", "value": 57, "unit": "ml/min", "ref_range": ">60", "flag": "L"}
+      ]
+    },
+    {
+      "collected_at": "2025-05-13",
+      "source": "Hausarzt Dr. Vogel (Quartalslabor)",
+      "values": [
+        {"analyte": "Hämoglobin", "value": 14.1, "unit": "g/dl", "ref_range": "13,5-17,2", "flag": ""},
+        {"analyte": "Gesamtcholesterin", "value": 182, "unit": "mg/dl", "ref_range": "<200", "flag": ""},
+        {"analyte": "LDL-Cholesterin", "value": 102, "unit": "mg/dl", "ref_range": "<116", "flag": ""},
+        {"analyte": "Vitamin D (25-OH)", "value": 34, "unit": "ng/ml", "ref_range": "30-70", "flag": ""},
+        {"analyte": "Kalium", "value": 4.4, "unit": "mmol/l", "ref_range": "3,5-5,1", "flag": ""},
+        {"analyte": "Natrium", "value": 140, "unit": "mmol/l", "ref_range": "136-145", "flag": ""},
+        {"analyte": "Kreatinin", "value": 1.3, "unit": "mg/dl", "ref_range": "0,7-1,2", "flag": "H"},
+        {"analyte": "eGFR (CKD-EPI)", "value": 52, "unit": "ml/min", "ref_range": ">60", "flag": "L"}
+      ]
+    },
+    {
+      "collected_at": "2026-02-24",
+      "source": "Hausarzt Dr. Vogel (Quartalslabor)",
+      "values": [
+        {"analyte": "Hämoglobin", "value": 13.8, "unit": "g/dl", "ref_range": "13,5-17,2", "flag": ""},
+        {"analyte": "Gesamtcholesterin", "value": 190, "unit": "mg/dl", "ref_range": "<200", "flag": ""},
+        {"analyte": "LDL-Cholesterin", "value": 110, "unit": "mg/dl", "ref_range": "<116", "flag": ""},
+        {"analyte": "Kalium", "value": 4.5, "unit": "mmol/l", "ref_range": "3,5-5,1", "flag": ""},
+        {"analyte": "Kreatinin", "value": 1.3, "unit": "mg/dl", "ref_range": "0,7-1,2", "flag": "H"},
+        {"analyte": "eGFR (CKD-EPI)", "value": 51, "unit": "ml/min", "ref_range": ">60", "flag": "L"}
+      ]
+    }
+  ]
+}

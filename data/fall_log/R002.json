@@ -1,0 +1,23 @@
+{
+  "resident_id": "R002",
+  "falls": [
+    {
+      "date": "2025-01-22",
+      "time": "11:15",
+      "location": "Bewohnerzimmer, vor dem Sessel",
+      "circumstances": "Beim Hinsetzen am Sessel vorbeigegriffen und langsam zu Boden gerutscht, Rollator stand etwas zu weit entfernt. Bagatellsturz, Bewohner konnte mit leichter Hilfe selbst wieder aufstehen.",
+      "injury": "keine, keine Schmerzen, keine Prellmarken",
+      "measures": "Rollator konsequent in Reichweite, Hinweis zum sicheren Transfer, keine ärztliche Vorstellung erforderlich",
+      "witnessed": false
+    },
+    {
+      "date": "2026-05-18",
+      "time": "11:20",
+      "location": "Flur, auf dem Weg zum Speisesaal",
+      "circumstances": "Im Flur gestürzt, Sturzhergang a.e. mechanisch. Bewohner war wie üblich mit Rollator unterwegs. Keine Bewusstlosigkeit, kein Kopfanprall lt. Fremdanamnese.",
+      "injury": "Starke Schmerzen linke Hüfte, Bein verkürzt und außenrotiert. V.a. proximale Femurfraktur links.",
+      "measures": "Sofortige Schmerzlagerung, RTW gerufen, Einweisung St. Vinzenz-Krankenhaus. Spätere Diagnose: pertrochantäre Femurfraktur links, operative Versorgung (DHS) am 19.05.2026.",
+      "witnessed": true
+    }
+  ]
+}

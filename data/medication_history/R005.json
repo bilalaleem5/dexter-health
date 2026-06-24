@@ -1,0 +1,115 @@
+{
+  "resident_id": "R005",
+  "events": [
+    {
+      "date": "2017-03-08",
+      "action": "started",
+      "internal_name": "budesonid_formoterol",
+      "wirkstoff": "Budesonid/Formoterol",
+      "to_dosage": "160/4,5 µg/Hub 1-0-1 (je 1 Hub)",
+      "reason": "Erstdiagnose Asthma bronchiale, schwergradig persistierend (GINA-Stufe 4), Etablierung ICS/LABA-Dauertherapie",
+      "prescriber": "Pneumologische Praxis Dr. Hoffmann"
+    },
+    {
+      "date": "2017-03-08",
+      "action": "started",
+      "internal_name": "salbutamol",
+      "wirkstoff": "Salbutamol",
+      "to_dosage": "100 µg/Hub bei Bedarf",
+      "reason": "Bedarfsmedikation Bronchospasmus",
+      "prescriber": "Pneumologische Praxis Dr. Hoffmann"
+    },
+    {
+      "date": "2019-06-12",
+      "action": "started",
+      "internal_name": "amlodipin",
+      "wirkstoff": "Amlodipin",
+      "to_dosage": "5 mg 1-0-0-0",
+      "reason": "Erstdiagnose arterielle Hypertonie",
+      "prescriber": "Dr. Vogel"
+    },
+    {
+      "date": "2019-11-21",
+      "action": "dose_changed",
+      "internal_name": "budesonid_formoterol",
+      "wirkstoff": "Budesonid/Formoterol",
+      "from_dosage": "160/4,5 µg/Hub 1-0-1 (je 1 Hub)",
+      "to_dosage": "160/4,5 µg/Hub 2-0-2 (je 2 Hübe)",
+      "reason": "Eskalation der Dauertherapie nach Status asthmaticus mit stationärer Behandlung",
+      "prescriber": "Klinikum Köln-Merheim / Pneumologie"
+    },
+    {
+      "date": "2020-05-04",
+      "action": "dose_changed",
+      "internal_name": "budesonid_formoterol",
+      "wirkstoff": "Budesonid/Formoterol",
+      "from_dosage": "160/4,5 µg/Hub 2-0-2 (je 2 Hübe)",
+      "to_dosage": "160/4,5 µg/Hub 1-0-1 (je 1 Hub)",
+      "reason": "Deeskalation nach stabilem Verlauf, gute Asthmakontrolle",
+      "prescriber": "Pneumologische Praxis Dr. Hoffmann"
+    },
+    {
+      "date": "2023-08-19",
+      "action": "started",
+      "internal_name": "ass",
+      "wirkstoff": "Acetylsalicylsäure",
+      "to_dosage": "100 mg 1-0-0-0",
+      "reason": "Sekundärprophylaxe nach zerebraler Ischämie",
+      "prescriber": "Klinikum Köln-Merheim / Neurologie"
+    },
+    {
+      "date": "2023-08-19",
+      "action": "started",
+      "internal_name": "atorvastatin",
+      "wirkstoff": "Atorvastatin",
+      "to_dosage": "20 mg 0-0-1-0",
+      "reason": "Sekundärprophylaxe nach zerebraler Ischämie",
+      "prescriber": "Klinikum Köln-Merheim / Neurologie"
+    },
+    {
+      "date": "2024-01-25",
+      "action": "started",
+      "internal_name": "donepezil",
+      "wirkstoff": "Donepezil",
+      "to_dosage": "5 mg 0-0-1-0",
+      "reason": "Erstdiagnose Demenz, Beginn Antidementivum nach Aufdosierung",
+      "prescriber": "Dr. Vogel"
+    },
+    {
+      "date": "2024-09-30",
+      "action": "stopped",
+      "internal_name": "amlodipin",
+      "wirkstoff": "Amlodipin",
+      "from_dosage": "5 mg 1-0-0-0",
+      "reason": "Absetzen wegen Knöchelödemen; Blutdruck zuletzt im Zielbereich, Auslassversuch",
+      "prescriber": "Dr. Vogel"
+    },
+    {
+      "date": "2024-11-18",
+      "action": "started",
+      "internal_name": "macrogol",
+      "wirkstoff": "Macrogol",
+      "to_dosage": "1 Beutel bei Bedarf",
+      "reason": "rezidivierende Obstipation bei Immobilität, Bedarfsmedikation",
+      "prescriber": "Dr. Vogel"
+    },
+    {
+      "date": "2025-03-12",
+      "action": "started",
+      "internal_name": "nitrofurantoin",
+      "wirkstoff": "Nitrofurantoin",
+      "to_dosage": "50 mg 1-0-1-0",
+      "reason": "unkomplizierter Harnwegsinfekt, befristet 5 Tage",
+      "prescriber": "Dr. Vogel"
+    },
+    {
+      "date": "2025-03-17",
+      "action": "stopped",
+      "internal_name": "nitrofurantoin",
+      "wirkstoff": "Nitrofurantoin",
+      "from_dosage": "50 mg 1-0-1-0",
+      "reason": "Antibiose planmäßig beendet, Infekt ausgeheilt",
+      "prescriber": "Dr. Vogel"
+    }
+  ]
+}

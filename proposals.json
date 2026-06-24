@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260624T094355Z",
+  "proposals": [
+    {
+      "proposal_id": "e93c1f0c72033150",
+      "resident_id": "R001",
+      "letter_id": "letter_01",
+      "category": "other",
+      "action": "flag",
+      "target_entity": "stay_metadata",
+      "routing": "info_only",
+      "severity": "info",
+      "confidence": 0.9,
+      "provenance": {
+        "letter_quote": "wir berichten über unsere gemeinsame Patientin **Hildegard Brombacher, geb. 04.02.1942**, wohnhaft Seniorenzentrum Bonner Wall, die sich vom 12.05.2026 bis zum 26.05.2026 in unserer stationären Behand",
+        "letter_section": "other",
+        "db_reference": null
+      },
+      "rationale": "Stay metadata extracted: admitted 2026-05-12, discharged 2026-05-26, department Kardiologie."
+    },
+    {
+      "proposal_id": "f4e53ad50e7e2d28",
+      "resident_id": "R002",
+      "letter_id": "letter_02",
+      "category": "other",
+      "action": "flag",
+      "target_entity": "stay_metadata",
+      "routing": "info_only",
+      "severity": "info",
+      "confidence": 0.9,
+      "provenance": {
+        "letter_quote": "ST. VINZENZ-KRANKENHAUS KÖLN — Akad. Lehrkrankenhaus",
+        "letter_section": "other",
+        "db_reference": null
+      },
+      "rationale": "Stay metadata extracted: admitted 2026-05-12, discharged 2026-05-26, department Kardiologie."
+    },
+    {
+      "proposal_id": "c5203a41250ee76f",
+      "resident_id": "R003",
+      "letter_id": "letter_03",
+      "category": "other",
+      "action": "flag",
+      "target_entity": "stay_metadata",
+      "routing": "info_only",
+      "severity": "info",
+      "confidence": 0.9,
+      "provenance": {
+        "letter_quote": "HERZZENTRUM KÖLN",
+        "letter_section": "other",
+        "db_reference": null
+      },
+      "rationale": "Stay metadata extracted: admitted 2026-05-12, discharged 2026-05-26, department Kardiologie."
+    },
+    {
+      "proposal_id": "e421f35a379a25a4",
+      "resident_id": "R004",
+      "letter_id": "letter_04",
+      "category": "other",
+      "action": "flag",
+      "target_entity": "stay_metadata",
+      "routing": "info_only",
+      "severity": "info",
+      "confidence": 0.9,
+      "provenance": {
+        "letter_quote": "KREISKRANKENHAUS RHEIN-ERFT",
+        "letter_section": "other",
+        "db_reference": null
+      },
+      "rationale": "Stay metadata extracted: admitted 2026-05-12, discharged 2026-05-26, department Kardiologie."
+    },
+    {
+      "proposal_id": "cdac56173ec6fa6a",
+      "resident_id": "R005",
+      "letter_id": "letter_05",
+      "category": "other",
+      "action": "flag",
+      "target_entity": "stay_metadata",
+      "routing": "info_only",
+      "severity": "info",
+      "confidence": 0.9,
+      "provenance": {
+        "letter_quote": "ST. ELISABETH-KRANKENHAUS KÖLN",
+        "letter_section": "other",
+        "db_reference": null
+      },
+      "rationale": "Stay metadata extracted: admitted 2026-05-12, discharged 2026-05-26, department Kardiologie."
+    }
+  ],
+  "cost_log": [
+    {
+      "letter_id": "letter_01",
+      "model": "mock",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "letter_id": "letter_01",
+      "model": "mock",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "letter_id": "letter_01",
+      "model": "mock",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "letter_id": "letter_02",
+      "model": "mock",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "letter_id": "letter_02",
+      "model": "mock",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "letter_id": "letter_02",
+      "model": "mock",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "letter_id": "letter_03",
+      "model": "mock",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "letter_id": "letter_03",
+      "model": "mock",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "letter_id": "letter_03",
+      "model": "mock",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "letter_id": "letter_04",
+      "model": "mock",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "letter_id": "letter_04",
+      "model": "mock",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "letter_id": "letter_04",
+      "model": "mock",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "letter_id": "letter_05",
+      "model": "mock",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "letter_id": "letter_05",
+      "model": "mock",
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "letter_id": "letter_05",
+      "model": "mock",
+      "input_tokens": 0,
+      "output_tokens": 0
+    }
+  ]
+}

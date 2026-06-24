@@ -1,0 +1,59 @@
+{
+  "resident_id": "R001",
+  "diagnoses": [
+    {
+      "diagnose": "Chronische Herzinsuffizienz NYHA III",
+      "internal_diagnose": "heart_failure",
+      "icd10": "I50.13",
+      "noted_at": "2023-04-12"
+    },
+    {
+      "diagnose": "Diabetes mellitus Typ 2, insulinpflichtig",
+      "internal_diagnose": "diabetes_type_2",
+      "icd10": "E11.91",
+      "noted_at": "2019-09-02"
+    },
+    {
+      "diagnose": "Arterielle Hypertonie",
+      "internal_diagnose": "hypertension",
+      "icd10": "I10.90",
+      "noted_at": "2015-03-20"
+    },
+    {
+      "diagnose": "Chronische Niereninsuffizienz Stadium G3b",
+      "internal_diagnose": "ckd_g3b",
+      "icd10": "N18.3",
+      "noted_at": "2022-08-15"
+    },
+    {
+      "diagnose": "Hyperlipidämie",
+      "internal_diagnose": "hyperlipidemia",
+      "icd10": "E78.5",
+      "noted_at": "2015-03-20"
+    },
+    {
+      "diagnose": "Adipositas Grad I",
+      "internal_diagnose": "obesity",
+      "icd10": "E66.0",
+      "noted_at": "2015-03-20"
+    },
+    {
+      "diagnose": "Gonarthrose beidseits",
+      "internal_diagnose": "gonarthrosis",
+      "icd10": "M17.0",
+      "noted_at": "2020-11-02"
+    },
+    {
+      "diagnose": "Z.n. Cholezystektomie 2009",
+      "internal_diagnose": "cholecystectomy_history",
+      "icd10": "Z90.4",
+      "noted_at": "2009-06-30"
+    },
+    {
+      "diagnose": "Presbyakusis, hörgeräteversorgt",
+      "internal_diagnose": "presbycusis",
+      "icd10": "H91.1",
+      "noted_at": "2021-04-19"
+    }
+  ]
+}
