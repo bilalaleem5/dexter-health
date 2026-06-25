@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "20260624T094355Z",
+  "run_id": "20260624T233448Z",
   "proposals": [
     {
       "proposal_id": "e93c1f0c72033150",
@@ -17,7 +17,143 @@
         "letter_section": "other",
         "db_reference": null
       },
-      "rationale": "Stay metadata extracted: admitted 2026-05-12, discharged 2026-05-26, department Kardiologie."
+      "rationale": "Stay metadata extracted: admitted 2026-05-12, discharged 2026-05-26, department Innere Medizin III - Kardiologie und Angiologie."
+    },
+    {
+      "proposal_id": "906d3dd90efef286",
+      "resident_id": "R001",
+      "letter_id": "letter_01",
+      "category": "medication",
+      "action": "modify",
+      "target_entity": "torasemid",
+      "routing": "human_confirm",
+      "severity": "warn",
+      "confidence": 0.85,
+      "provenance": {
+        "letter_quote": "Die Heimmedikation mit Torasemid wurde von 10 mg auf 20 mg taeglich erhoeht.",
+        "letter_section": "epikrise",
+        "db_reference": null
+      },
+      "rationale": "Torasemid (20 mg 1-0-0-0): dose_changed."
+    },
+    {
+      "proposal_id": "fd3c5cb5845de79e",
+      "resident_id": "R001",
+      "letter_id": "letter_01",
+      "category": "medication",
+      "action": "flag",
+      "target_entity": "insulin_glargin",
+      "routing": "hard_stop_physician",
+      "severity": "critical",
+      "confidence": 0.45,
+      "provenance": {
+        "letter_quote": "Insulin glargin auf 12 IE reduziert; wir empfehlen die Fortfuehrung mit 12 IE",
+        "letter_section": "procedere",
+        "db_reference": null
+      },
+      "rationale": "Insulin glargin (Tabelle Entlassmedikation: 18 IE 1-0-0-0 s.c.; Procedere-Text: 12 IE): unclear. Widerspruch im Brief: Procedere nennt zweimal 12 IE ('Insulin glargin auf 12 IE reduziert', 'Fortfuehrung mit 12 IE'); die Entlassmedikations-Tabelle nennt 18 IE; der bestehende Medikationsplan vor Aufnahme war 14 IE. Drei unterschiedliche Werte fuer dieselbe Insulin-Dosis."
+    },
+    {
+      "proposal_id": "f05ed34473495990",
+      "resident_id": "R001",
+      "letter_id": "letter_01",
+      "category": "task",
+      "action": "create_task",
+      "target_entity": "metformin_dose_reevaluation__due+14d",
+      "routing": "hard_stop_physician",
+      "severity": "warn",
+      "confidence": 0.85,
+      "provenance": {
+        "letter_quote": "Re-Evaluation der Metformin-Dosis bei eingeschraenkter Nierenfunktion durch die Hausaerztin empfohlen.",
+        "letter_section": "procedere",
+        "db_reference": null
+      },
+      "rationale": "Metformin-Dosis bei eingeschraenkter Nierenfunktion durch die Hausaerztin re-evaluieren lassen."
+    },
+    {
+      "proposal_id": "cb1481228365cb15",
+      "resident_id": "R001",
+      "letter_id": "letter_01",
+      "category": "task",
+      "action": "create_task",
+      "target_entity": "lab_electrolytes_retention_recheck__due+10d",
+      "routing": "auto_apply",
+      "severity": "info",
+      "confidence": 0.85,
+      "provenance": {
+        "letter_quote": "Laborkontrolle (Elektrolyte, Retentionswerte) in 1-2 Wochen ueber die Hausaerztin bei intensivierter Diuretikatherapie.",
+        "letter_section": "procedere",
+        "db_reference": null
+      },
+      "rationale": "Laborkontrolle (Elektrolyte, Retentionswerte) in 1-2 Wochen bei der Hausaerztin wegen intensivierter Diuretikatherapie."
+    },
+    {
+      "proposal_id": "0b2a3e683654a4d1",
+      "resident_id": "R001",
+      "letter_id": "letter_01",
+      "category": "task",
+      "action": "create_task",
+      "target_entity": "cardiology_followup_echo__due+90d",
+      "routing": "auto_apply",
+      "severity": "info",
+      "confidence": 0.85,
+      "provenance": {
+        "letter_quote": "Kardiologische Verlaufskontrolle mit Echokardiographie in 3 Monaten.",
+        "letter_section": "procedere",
+        "db_reference": null
+      },
+      "rationale": "Kardiologische Verlaufskontrolle mit Echokardiographie in 3 Monaten vereinbaren."
+    },
+    {
+      "proposal_id": "47c0452d3f0d5d11",
+      "resident_id": "R001",
+      "letter_id": "letter_01",
+      "category": "task",
+      "action": "create_task",
+      "target_entity": "betablocker_sglt2i_reevaluation__due+90d",
+      "routing": "hard_stop_physician",
+      "severity": "warn",
+      "confidence": 0.85,
+      "provenance": {
+        "letter_quote": "Re-Evaluation im Rahmen der kardiologischen Verlaufskontrolle in 3 Monaten.",
+        "letter_section": "epikrise",
+        "db_reference": null
+      },
+      "rationale": "Bei kardiologischer Kontrolle reevaluieren, ob Betablocker und SGLT2-Inhibitor begonnen werden koennen."
+    },
+    {
+      "proposal_id": "d73553c43b8fa216",
+      "resident_id": "R001",
+      "letter_id": "letter_01",
+      "category": "fluid_management",
+      "action": "modify",
+      "target_entity": "fluid_restriction_chf",
+      "routing": "human_confirm",
+      "severity": "warn",
+      "confidence": 0.8,
+      "provenance": {
+        "letter_quote": "Trinkmengenbeschraenkung auf maximal 1.500 ml/Tag sowie taegliche Gewichtskontrollen.",
+        "letter_section": "procedere",
+        "db_reference": null
+      },
+      "rationale": "Trinkmengenbeschraenkung auf maximal 1.500 ml/Tag bei dekompensierter Herzinsuffizienz. (Achtung: bestehende Strategie war 'encourage', neu: 'restrict'.)"
+    },
+    {
+      "proposal_id": "e63f93cc748be0b0",
+      "resident_id": "R001",
+      "letter_id": "letter_01",
+      "category": "behavior",
+      "action": "add",
+      "target_entity": "daily_weight_monitoring_chf",
+      "routing": "human_confirm",
+      "severity": "info",
+      "confidence": 0.8,
+      "provenance": {
+        "letter_quote": "Bei einer Gewichtszunahme von mehr als 2 kg innerhalb von 3 Tagen bitten wir um umgehende aerztliche Vorstellung.",
+        "letter_section": "procedere",
+        "db_reference": null
+      },
+      "rationale": "Taegliche Gewichtskontrolle; bei Zunahme > 2 kg in 3 Tagen umgehende aerztliche Vorstellung."
     },
     {
       "proposal_id": "f4e53ad50e7e2d28",
@@ -34,7 +170,143 @@
         "letter_section": "other",
         "db_reference": null
       },
-      "rationale": "Stay metadata extracted: admitted 2026-05-12, discharged 2026-05-26, department Kardiologie."
+      "rationale": "Stay metadata extracted: admitted 2026-05-18, discharged 2026-06-02, department Unfallchirurgie und Orthopaedie."
+    },
+    {
+      "proposal_id": "a9925eb7b30db127",
+      "resident_id": "R002",
+      "letter_id": "letter_02",
+      "category": "medication",
+      "action": "modify",
+      "target_entity": "metamizol",
+      "routing": "human_confirm",
+      "severity": "warn",
+      "confidence": 0.85,
+      "provenance": {
+        "letter_quote": "Metamizol 500 mg 1-1-1-1",
+        "letter_section": "entlassmedikation",
+        "db_reference": null
+      },
+      "rationale": "Metamizol (500 mg 1-1-1-1 (fest angesetzt, vorher Bedarfsmedikation max. 4g/Tag)): dose_changed."
+    },
+    {
+      "proposal_id": "978291a76bd28f14",
+      "resident_id": "R002",
+      "letter_id": "letter_02",
+      "category": "medication",
+      "action": "add",
+      "target_entity": "ibuprofen",
+      "routing": "hard_stop_physician",
+      "severity": "critical",
+      "confidence": 0.45,
+      "provenance": {
+        "letter_quote": "Ibuprofen 600 mg 1-1-1 (Analgesie n. Fragilitaetsfraktur)",
+        "letter_section": "entlassmedikation",
+        "db_reference": null
+      },
+      "rationale": "Ibuprofen (600 mg 1-1-1): new. Sicherheitskonflikt: NSAR bei dokumentierter Z.n. oberer gastrointestinaler Blutung bei Ulcus ventriculi (Forrest IIb, 2024) UND gleichzeitiger Enoxaparin-Gabe UND reduzierter Nierenfunktion (eGFR 44-52 laut Labor) - erhoehtes Blutungs- und Nierenrisiko."
+    },
+    {
+      "proposal_id": "44beaf4a732b5657",
+      "resident_id": "R002",
+      "letter_id": "letter_02",
+      "category": "medication",
+      "action": "add",
+      "target_entity": "enoxaparin",
+      "routing": "human_confirm",
+      "severity": "warn",
+      "confidence": 0.9,
+      "provenance": {
+        "letter_quote": "Enoxaparin 40 mg s.c. 0-0-1 (Thromboseprophylaxe, Fortfuehrung f. weitere 14 Tage bis z. sicheren Mobilisierung)",
+        "letter_section": "entlassmedikation",
+        "db_reference": null
+      },
+      "rationale": "Enoxaparin (40 mg s.c. 0-0-1, befristet fuer weitere 14 Tage): new."
+    },
+    {
+      "proposal_id": "dea08b2526b682aa",
+      "resident_id": "R002",
+      "letter_id": "letter_02",
+      "category": "diagnosis",
+      "action": "add",
+      "target_entity": "pertrochantaere_femurfraktur_links_nach_sturz",
+      "routing": "human_confirm",
+      "severity": "info",
+      "confidence": 0.8,
+      "provenance": {
+        "letter_quote": "Pertrochantaere Femurfraktur li. (S72.1) n. Sturz i. d. Pflegeeinrichtung",
+        "letter_section": "diagnoses",
+        "db_reference": null
+      },
+      "rationale": "Neue chronische Diagnose laut Brief: Pertrochantaere Femurfraktur links nach Sturz (S72.1)."
+    },
+    {
+      "proposal_id": "1118718e7e46940e",
+      "resident_id": "R002",
+      "letter_id": "letter_02",
+      "category": "task",
+      "action": "create_task",
+      "target_entity": "renal_lab_recheck__due+14d",
+      "routing": "auto_apply",
+      "severity": "info",
+      "confidence": 0.85,
+      "provenance": {
+        "letter_quote": "Laborchem. Krea-Ko. in 2 Wo b. HA (b. Bedarfsmedikation u. red. Nierenfunktion).",
+        "letter_section": "procedere",
+        "db_reference": null
+      },
+      "rationale": "Kreatinin-Kontrolle in 2 Wochen beim Hausarzt (Bedarfsmedikation, reduzierte Nierenfunktion)."
+    },
+    {
+      "proposal_id": "4222e9c361c0cca6",
+      "resident_id": "R002",
+      "letter_id": "letter_02",
+      "category": "task",
+      "action": "create_task",
+      "target_entity": "osteoporosis_dxa_workup__due+30d",
+      "routing": "hard_stop_physician",
+      "severity": "warn",
+      "confidence": 0.85,
+      "provenance": {
+        "letter_quote": "B. Z.n. Fragilitaetsfraktur Osteoporose-Basisdiagnostik (DXA) u. ggf. spezif. Therapie ueb. d. HA empfohlen",
+        "letter_section": "procedere",
+        "db_reference": null
+      },
+      "rationale": "Osteoporose-Basisdiagnostik (DXA) und ggf. spezifische Therapie beim Hausarzt veranlassen."
+    },
+    {
+      "proposal_id": "8e5f25c3eb46287d",
+      "resident_id": "R002",
+      "letter_id": "letter_02",
+      "category": "task",
+      "action": "create_task",
+      "target_entity": "rollator_adjustment__due+7d",
+      "routing": "auto_apply",
+      "severity": "info",
+      "confidence": 0.85,
+      "provenance": {
+        "letter_quote": "Ergotherap. Hilfsmittelberatung erfolgt, Rollator-Anpassung ueb. d. Einrichtung empfohlen.",
+        "letter_section": "epikrise",
+        "db_reference": null
+      },
+      "rationale": "Rollator-Anpassung ueber die Einrichtung veranlassen (ergotherapeutische Empfehlung)."
+    },
+    {
+      "proposal_id": "9d1ffd43c9d88d75",
+      "resident_id": "R002",
+      "letter_id": "letter_02",
+      "category": "behavior",
+      "action": "add",
+      "target_entity": "fall_risk_transfer_precaution",
+      "routing": "human_confirm",
+      "severity": "info",
+      "confidence": 0.8,
+      "provenance": {
+        "letter_quote": "B. Entlassung Transfer Bett/Stuhl nur m. Unterstuetzung v. 2 Pflegekraeften moeglich, Gehstrecke m. Rollator u. Begleitung ca. 10 m.",
+        "letter_section": "epikrise",
+        "db_reference": null
+      },
+      "rationale": "Nach Sturz mit Fragilitaetsfraktur: Transfer nur mit Unterstuetzung von 2 Pflegekraeften, Mobilisation schmerzadaptiert."
     },
     {
       "proposal_id": "c5203a41250ee76f",
@@ -47,11 +319,113 @@
       "severity": "info",
       "confidence": 0.9,
       "provenance": {
-        "letter_quote": "HERZZENTRUM KÖLN",
+        "letter_quote": "wir berichten über Ihre Patientin **Elfriede Okonkwo, geb. 17.03.1938**, die sich vom 20.05.2026 bis zum 01.06.2026 in unserer stationären Behandlung befand.",
         "letter_section": "other",
         "db_reference": null
       },
-      "rationale": "Stay metadata extracted: admitted 2026-05-12, discharged 2026-05-26, department Kardiologie."
+      "rationale": "Stay metadata extracted: admitted 2026-05-20, discharged 2026-06-01, department Kardiologie, Elektrophysiologie und Rhythmologie."
+    },
+    {
+      "proposal_id": "07bb0b26be6a0d26",
+      "resident_id": "R003",
+      "letter_id": "letter_03",
+      "category": "medication",
+      "action": "stop",
+      "target_entity": "phenprocoumon",
+      "routing": "human_confirm",
+      "severity": "warn",
+      "confidence": 0.9,
+      "provenance": {
+        "letter_quote": "Marcumar wurde am 28.05.2026 letztmalig gegeben und ist abgesetzt",
+        "letter_section": "epikrise",
+        "db_reference": null
+      },
+      "rationale": "Phenprocoumon (Dosierung siehe Zitat): stopped."
+    },
+    {
+      "proposal_id": "f4d28f5014bcc69e",
+      "resident_id": "R003",
+      "letter_id": "letter_03",
+      "category": "medication",
+      "action": "stop",
+      "target_entity": "bisoprolol",
+      "routing": "human_confirm",
+      "severity": "warn",
+      "confidence": 0.9,
+      "provenance": {
+        "letter_quote": "Bisoprolol wurde bei bradykarder Ueberleitung pausiert",
+        "letter_section": "epikrise",
+        "db_reference": null
+      },
+      "rationale": "Bisoprolol (Dosierung siehe Zitat): stopped."
+    },
+    {
+      "proposal_id": "07931c71e06d321c",
+      "resident_id": "R003",
+      "letter_id": "letter_03",
+      "category": "medication",
+      "action": "add",
+      "target_entity": "apixaban",
+      "routing": "human_confirm",
+      "severity": "warn",
+      "confidence": 0.9,
+      "provenance": {
+        "letter_quote": "erfolgte die Umstellung der oralen Antikoagulation von Phenprocoumon (Marcumar) auf Apixaban ... erfolgte die Einstellung auf die Standarddosis",
+        "letter_section": "epikrise",
+        "db_reference": null
+      },
+      "rationale": "Apixaban (5 mg 1-0-1-0 (Standarddosis)): new."
+    },
+    {
+      "proposal_id": "649d4a00e6e567bc",
+      "resident_id": "R003",
+      "letter_id": "letter_03",
+      "category": "task",
+      "action": "create_task",
+      "target_entity": "bisoprolol_reevaluation__due+28d",
+      "routing": "hard_stop_physician",
+      "severity": "warn",
+      "confidence": 0.85,
+      "provenance": {
+        "letter_quote": "Re-Evaluation der pausierten Bisoprolol-Therapie durch die Hausaerztin in 4 Wochen",
+        "letter_section": "procedere",
+        "db_reference": null
+      },
+      "rationale": "Re-Evaluation der pausierten Bisoprolol-Therapie durch die Hausaerztin in 4 Wochen (Pulskontrolle)."
+    },
+    {
+      "proposal_id": "63fbf6214d364445",
+      "resident_id": "R003",
+      "letter_id": "letter_03",
+      "category": "task",
+      "action": "create_task",
+      "target_entity": "renal_function_biannual_check__due+182d",
+      "routing": "auto_apply",
+      "severity": "info",
+      "confidence": 0.85,
+      "provenance": {
+        "letter_quote": "Halbjaehrliche Kontrolle der Nierenfunktion empfohlen.",
+        "letter_section": "procedere",
+        "db_reference": null
+      },
+      "rationale": "Halbjaehrliche Kontrolle der Nierenfunktion unter Apixaban."
+    },
+    {
+      "proposal_id": "1fd3f8d94ac79e86",
+      "resident_id": "R003",
+      "letter_id": "letter_03",
+      "category": "task",
+      "action": "create_task",
+      "target_entity": "rhythmology_followup_if_recurrent_syncope__due+365d",
+      "routing": "hard_stop_physician",
+      "severity": "warn",
+      "confidence": 0.85,
+      "provenance": {
+        "letter_quote": "Wir bitten um Wiedervorstellung in unserer rhythmologischen Ambulanz bei erneuter Synkope oder Schwindel, dann Re-Evaluation einer Schrittmacherindikation.",
+        "letter_section": "procedere",
+        "db_reference": null
+      },
+      "rationale": "Bei erneuter Synkope/Schwindel Wiedervorstellung in der rhythmologischen Ambulanz (Re-Evaluation Schrittmacherindikation)."
     },
     {
       "proposal_id": "e421f35a379a25a4",
@@ -64,11 +438,130 @@
       "severity": "info",
       "confidence": 0.9,
       "provenance": {
-        "letter_quote": "KREISKRANKENHAUS RHEIN-ERFT",
+        "letter_quote": "Aufenthalt: 25.05.2026 – 05.06.2026",
         "letter_section": "other",
         "db_reference": null
       },
-      "rationale": "Stay metadata extracted: admitted 2026-05-12, discharged 2026-05-26, department Kardiologie."
+      "rationale": "Stay metadata extracted: admitted 2026-05-25, discharged 2026-06-05, department Pneumologie und Allgemeine Innere Medizin."
+    },
+    {
+      "proposal_id": "b0f410ddc0adb495",
+      "resident_id": "R004",
+      "letter_id": "letter_04",
+      "category": "medication",
+      "action": "flag",
+      "target_entity": "missing_medication_attachment",
+      "routing": "hard_stop_physician",
+      "severity": "warn",
+      "confidence": 0.3,
+      "provenance": {
+        "letter_quote": "Brief verweist zweimal auf eine fehlende Anlage 2: 'Prednisolon 20 mg 1-0-0 (Ausschleichschema siehe Anlage 2)' und '-- Fortsetzung der Medikationsliste: siehe Anlage 2 --'. Anlage 2 ist im vorliegend",
+        "letter_section": "entlassmedikation",
+        "db_reference": null
+      },
+      "rationale": "Die Entlassmedikation kann nicht vollständig bestätigt werden — der Brief verweist auf eine fehlende Anlage: Brief verweist zweimal auf eine fehlende Anlage 2: 'Prednisolon 20 mg 1-0-0 (Ausschleichschema siehe Anlage 2)' und '-- Fortsetzung der Medikationsliste: siehe Anlage 2 --'. Anlage 2 ist im vorliegenden Dokument nicht enthalten (nur Anlage 1, der Laborverlauf, liegt vor). Der Brief ist zudem als 'Vorlaeufiger Entlassungsbericht' gekennzeichnet; der endgueltige Arztbrief steht noch aus."
+    },
+    {
+      "proposal_id": "b3021ecd82be8501",
+      "resident_id": "R004",
+      "letter_id": "letter_04",
+      "category": "medication",
+      "action": "modify",
+      "target_entity": "ramipril",
+      "routing": "human_confirm",
+      "severity": "warn",
+      "confidence": 0.85,
+      "provenance": {
+        "letter_quote": "Ramipril 10 mg 1-0-0",
+        "letter_section": "entlassmedikation",
+        "db_reference": null
+      },
+      "rationale": "Ramipril (10 mg 1-0-0): dose_changed."
+    },
+    {
+      "proposal_id": "bc5dfb7926eeac05",
+      "resident_id": "R004",
+      "letter_id": "letter_04",
+      "category": "medication",
+      "action": "add",
+      "target_entity": "prednisolon",
+      "routing": "human_confirm",
+      "severity": "warn",
+      "confidence": 0.9,
+      "provenance": {
+        "letter_quote": "Prednisolon 20 mg 1-0-0 (Ausschleichschema siehe Anlage 2)",
+        "letter_section": "entlassmedikation",
+        "db_reference": null
+      },
+      "rationale": "Prednisolon (20 mg 1-0-0 (Ausschleichschema referenziert in Anlage 2, NICHT im vorliegenden Brief enthalten)): new."
+    },
+    {
+      "proposal_id": "9d0fa018258a984f",
+      "resident_id": "R004",
+      "letter_id": "letter_04",
+      "category": "medication",
+      "action": "add",
+      "target_entity": "amoxicillin_clavulansaeure",
+      "routing": "hard_stop_physician",
+      "severity": "critical",
+      "confidence": 0.45,
+      "provenance": {
+        "letter_quote": "Sequenztherapie: Amoxicillin/Clavulansaeure 875/125 mg 1-0-1 p.o. fuer weitere 4 Tage",
+        "letter_section": "procedere",
+        "db_reference": null
+      },
+      "rationale": "Amoxicillin/Clavulansaeure (875/125 mg 1-0-1 fuer 4 Tage): new. Allergiekonflikt: Amoxicillin ist ein Aminopenicillin; Resident hat eine dokumentierte Penicillinallergie (generalisiertes Exanthem, 2019) - Kreuzreaktion bei erneuter Penicillin-Exposition wahrscheinlich."
+    },
+    {
+      "proposal_id": "dd50a7913749d982",
+      "resident_id": "R004",
+      "letter_id": "letter_04",
+      "category": "task",
+      "action": "create_task",
+      "target_entity": "gp_crp_recheck__due+7d",
+      "routing": "auto_apply",
+      "severity": "info",
+      "confidence": 0.85,
+      "provenance": {
+        "letter_quote": "Klinische u. laborchemische Verlaufskontrolle (CRP, Leukozyten) beim Hausarzt in 1 Woche",
+        "letter_section": "procedere",
+        "db_reference": null
+      },
+      "rationale": "Klinische und laborchemische Verlaufskontrolle (CRP, Leukozyten) beim Hausarzt in 1 Woche."
+    },
+    {
+      "proposal_id": "ee0b727868621f01",
+      "resident_id": "R004",
+      "letter_id": "letter_04",
+      "category": "task",
+      "action": "create_task",
+      "target_entity": "pulmonology_laba_evaluation__due+49d",
+      "routing": "hard_stop_physician",
+      "severity": "warn",
+      "confidence": 0.85,
+      "provenance": {
+        "letter_quote": "Pneumologische Kontrolle m. Lungenfunktion in 6-8 Wochen empfohlen; Erweiterung d. inhalativen Therapie (LABA) dort evaluieren",
+        "letter_section": "procedere",
+        "db_reference": null
+      },
+      "rationale": "Pneumologische Kontrolle mit Lungenfunktion in 6-8 Wochen; dort Erweiterung der inhalativen Therapie (LABA) evaluieren."
+    },
+    {
+      "proposal_id": "60048f59b53d2bfd",
+      "resident_id": "R004",
+      "letter_id": "letter_04",
+      "category": "task",
+      "action": "create_task",
+      "target_entity": "vaccination_status_check__due+14d",
+      "routing": "auto_apply",
+      "severity": "info",
+      "confidence": 0.85,
+      "provenance": {
+        "letter_quote": "Influenza- u. Pneumokokkenimpfstatus bitte pruefen u. ggf. vervollstaendigen",
+        "letter_section": "procedere",
+        "db_reference": null
+      },
+      "rationale": "Influenza- und Pneumokokken-Impfstatus pruefen und ggf. vervollstaendigen."
     },
     {
       "proposal_id": "cdac56173ec6fa6a",
@@ -81,103 +574,171 @@
       "severity": "info",
       "confidence": 0.9,
       "provenance": {
-        "letter_quote": "ST. ELISABETH-KRANKENHAUS KÖLN",
+        "letter_quote": "Verlauf: B. Aufnahme am 22.05.2026 Pat. somnolent, jedoch jederzeit erweckbar, zeitl. u. situativ nicht orientiert, zur Person teilw. orientiert, Schleimhäute trocken, Zunge borkig belegt, Temp. 38,2 ",
         "letter_section": "other",
         "db_reference": null
       },
-      "rationale": "Stay metadata extracted: admitted 2026-05-12, discharged 2026-05-26, department Kardiologie."
+      "rationale": "Stay metadata extracted: admitted 2026-05-22, discharged 2026-06-03, department Geriatrie und Altersmedizin."
+    },
+    {
+      "proposal_id": "6db580993927ef65",
+      "resident_id": "R005",
+      "letter_id": "letter_05",
+      "category": "medication",
+      "action": "add",
+      "target_entity": "propranolol",
+      "routing": "hard_stop_physician",
+      "severity": "critical",
+      "confidence": 0.45,
+      "provenance": {
+        "letter_quote": "NEU angesetzt: Propranolol 20 mg 1-0-1 (b. neu aufgetret. Tremor u. art. Hypertonie)",
+        "letter_section": "entlassmedikation",
+        "db_reference": null
+      },
+      "rationale": "Propranolol (20 mg 1-0-1): new. Sicherheitskonflikt: Propranolol ist ein NICHT-selektiver Betablocker; Resident hat schwergradig persistierendes Asthma bronchiale (GINA-Stufe 4) MIT Z.n. Status asthmaticus 2019 - Bronchospasmusrisiko durch Beta-2-Blockade, in Asthma-Leitlinien als relative/absolute Kontraindikation gefuehrt."
+    },
+    {
+      "proposal_id": "bda0079679e4ce00",
+      "resident_id": "R005",
+      "letter_id": "letter_05",
+      "category": "task",
+      "action": "create_task",
+      "target_entity": "urine_recheck_if_infection_signs__due+180d",
+      "routing": "auto_apply",
+      "severity": "info",
+      "confidence": 0.85,
+      "provenance": {
+        "letter_quote": "Urinkontrolle b. erneuten Infektzeichen ueb. d. HA",
+        "letter_section": "procedere",
+        "db_reference": null
+      },
+      "rationale": "Bei erneuten Infektzeichen Urinkontrolle beim Hausarzt veranlassen."
+    },
+    {
+      "proposal_id": "0a068b4563fd86e2",
+      "resident_id": "R005",
+      "letter_id": "letter_05",
+      "category": "task",
+      "action": "create_task",
+      "target_entity": "speech_therapy_reevaluation_if_recurrent_cough__due+180d",
+      "routing": "hard_stop_physician",
+      "severity": "warn",
+      "confidence": 0.85,
+      "provenance": {
+        "letter_quote": "B. rez. Husten od. pulmonalen Infektzeichen logopaed. Re-Evaluation ueb. d. HA.",
+        "letter_section": "epikrise",
+        "db_reference": null
+      },
+      "rationale": "Bei rezidivierendem Husten/pulmonalen Infektzeichen logopaedische Re-Evaluation ueber den Hausarzt (Aspirationsrisiko)."
+    },
+    {
+      "proposal_id": "2d2412f5d88213af",
+      "resident_id": "R005",
+      "letter_id": "letter_05",
+      "category": "wound",
+      "action": "add",
+      "target_entity": "sacral_wound_dressing",
+      "routing": "human_confirm",
+      "severity": "info",
+      "confidence": 0.8,
+      "provenance": {
+        "letter_quote": "Wundversorgung sakral m. Schaumstoffverband fortfuehren, Verbandwechsel alle 2 Tage, druckentlastende Lagerung n. Plan",
+        "letter_section": "procedere",
+        "db_reference": null
+      },
+      "rationale": "Wundversorgung sakral mit Schaumstoffverband fortfuehren, Verbandwechsel alle 2 Tage, druckentlastende Lagerung nach Plan."
     }
   ],
   "cost_log": [
     {
       "letter_id": "letter_01",
-      "model": "mock",
-      "input_tokens": 0,
-      "output_tokens": 0
+      "model": "manual-extraction",
+      "input_tokens": 5611,
+      "output_tokens": 39
     },
     {
       "letter_id": "letter_01",
-      "model": "mock",
-      "input_tokens": 0,
-      "output_tokens": 0
+      "model": "manual-extraction",
+      "input_tokens": 6573,
+      "output_tokens": 864
     },
     {
       "letter_id": "letter_01",
-      "model": "mock",
-      "input_tokens": 0,
-      "output_tokens": 0
+      "model": "manual-extraction",
+      "input_tokens": 6293,
+      "output_tokens": 708
     },
     {
       "letter_id": "letter_02",
-      "model": "mock",
-      "input_tokens": 0,
-      "output_tokens": 0
+      "model": "manual-extraction",
+      "input_tokens": 1015,
+      "output_tokens": 35
     },
     {
       "letter_id": "letter_02",
-      "model": "mock",
-      "input_tokens": 0,
-      "output_tokens": 0
+      "model": "manual-extraction",
+      "input_tokens": 1935,
+      "output_tokens": 708
     },
     {
       "letter_id": "letter_02",
-      "model": "mock",
-      "input_tokens": 0,
-      "output_tokens": 0
+      "model": "manual-extraction",
+      "input_tokens": 1661,
+      "output_tokens": 597
     },
     {
       "letter_id": "letter_03",
-      "model": "mock",
-      "input_tokens": 0,
-      "output_tokens": 0
+      "model": "manual-extraction",
+      "input_tokens": 3888,
+      "output_tokens": 39
     },
     {
       "letter_id": "letter_03",
-      "model": "mock",
-      "input_tokens": 0,
-      "output_tokens": 0
+      "model": "manual-extraction",
+      "input_tokens": 4796,
+      "output_tokens": 550
     },
     {
       "letter_id": "letter_03",
-      "model": "mock",
-      "input_tokens": 0,
-      "output_tokens": 0
+      "model": "manual-extraction",
+      "input_tokens": 4524,
+      "output_tokens": 342
     },
     {
       "letter_id": "letter_04",
-      "model": "mock",
-      "input_tokens": 0,
-      "output_tokens": 0
+      "model": "manual-extraction",
+      "input_tokens": 725,
+      "output_tokens": 37
     },
     {
       "letter_id": "letter_04",
-      "model": "mock",
-      "input_tokens": 0,
-      "output_tokens": 0
+      "model": "manual-extraction",
+      "input_tokens": 1604,
+      "output_tokens": 606
     },
     {
       "letter_id": "letter_04",
-      "model": "mock",
-      "input_tokens": 0,
-      "output_tokens": 0
+      "model": "manual-extraction",
+      "input_tokens": 1334,
+      "output_tokens": 381
     },
     {
       "letter_id": "letter_05",
-      "model": "mock",
-      "input_tokens": 0,
-      "output_tokens": 0
+      "model": "manual-extraction",
+      "input_tokens": 2141,
+      "output_tokens": 34
     },
     {
       "letter_id": "letter_05",
-      "model": "mock",
-      "input_tokens": 0,
-      "output_tokens": 0
+      "model": "manual-extraction",
+      "input_tokens": 3092,
+      "output_tokens": 654
     },
     {
       "letter_id": "letter_05",
-      "model": "mock",
-      "input_tokens": 0,
-      "output_tokens": 0
+      "model": "manual-extraction",
+      "input_tokens": 2794,
+      "output_tokens": 385
     }
   ]
 }

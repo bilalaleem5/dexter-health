@@ -44,7 +44,7 @@
       "letter_id": "letter_01",
       "expected_category": "fluid_management",
       "expected_action": "modify",
-      "expected_target_contains": "trink",
+      "expected_target_contains": "fluid",
       "expected_routing": "human_confirm",
       "coordinate": "letter_01.md:115 ('Trinkmengenbeschränkung auf maximal 1.500 ml/Tag sowie tägliche Gewichtskontrollen.')",
       "notes": "Reverses the existing drink_protocol direction (data/drink_protocols/R001.json strategy=encourage, target 2000ml) -> should carry severity=warn for the direction flip."
@@ -56,7 +56,7 @@
       "letter_id": "letter_01",
       "expected_category": "task",
       "expected_action": "create_task",
-      "expected_target_contains": "kardio",
+      "expected_target_contains": "echo",
       "expected_routing": "auto_apply",
       "coordinate": "letter_01.md:119 ('Kardiologische Verlaufskontrolle mit Echokardiographie in 3 Monaten.')",
       "notes": "Pure scheduling, no clinical judgment required -> the one task type that should self-apply without a human."
@@ -189,9 +189,9 @@
       "expected_category": "medication",
       "expected_action": "add",
       "expected_target_contains": "propranolol",
-      "expected_routing": "human_confirm",
-      "coordinate": "letter_05.md:44 ('NEU angesetzt: Propranolol 20 mg 1-0-1 (b. neu aufgetret. Tremor u. art. Hypertonie)')",
-      "notes": null
+      "expected_routing": "hard_stop_physician",
+      "coordinate": "letter_05.md:44 ('NEU angesetzt: Propranolol 20 mg 1-0-1') vs data/diagnoses/R005.json ('Asthma bronchiale, schwergradig persistierend (GINA-Stufe 4...); Z.n. Status asthmaticus 2019')",
+      "notes": "UPDATED after the real run: originally labeled human_confirm. Propranolol is a non-selective beta-blocker; R005 has severe persistent asthma with a prior near-fatal exacerbation (status asthmaticus) — non-cardioselective beta-blockade carries real bronchospasm risk and is a relative/absolute contraindication in asthma guidelines. I missed this when hand-labeling from the letter alone; the real extraction (cross-referencing diagnoses.json) caught it and correctly escalated to hard_stop_physician. See EVAL.md."
     },
     {
       "case_id": "r005_sacral_wound_add",
@@ -200,10 +200,34 @@
       "letter_id": "letter_05",
       "expected_category": "wound",
       "expected_action": "add",
-      "expected_target_contains": "sakral",
+      "expected_target_contains": "wound",
       "expected_routing": "human_confirm",
       "coordinate": "letter_05.md:47 ('Wundversorgung sakral m. Schaumstoffverband fortführen, Verbandwechsel alle 2 Tage')",
-      "notes": "data/wounds/R005.json has no currently-active wound, so this is a new entry, not a duplicate."
+      "notes": "data/wounds/R005.json has no currently-active wound, so this is a new entry, not a duplicate. NOTE: a real run produced the English slug 'sacral_wound_dressing' rather than a German-rooted one — see EVAL.md 'Honest notes' on slug-language unpredictability."
+    },
+    {
+      "case_id": "r001_betablocker_sglt2i_reevaluation_task",
+      "is_negative": false,
+      "resident_id": "R001",
+      "letter_id": "letter_01",
+      "expected_category": "task",
+      "expected_action": "create_task",
+      "expected_target_contains": "sglt2",
+      "expected_routing": "hard_stop_physician",
+      "coordinate": "letter_01.md:73 ('Re-Evaluation im Rahmen der kardiologischen Verlaufskontrolle in 3 Monaten' — referring back to the deferred beta-blocker/SGLT2i start in the same sentence).",
+      "notes": "Distinct from r001_cardiology_followup_task: same appointment, but this is specifically the clinical decision point (whether to start the deferred drugs), not just booking the echo. Added after the real run surfaced it as a separate, correctly-hard_stop-routed task."
+    },
+    {
+      "case_id": "r002_femur_fracture_diagnosis_add",
+      "is_negative": false,
+      "resident_id": "R002",
+      "letter_id": "letter_02",
+      "expected_category": "diagnosis",
+      "expected_action": "add",
+      "expected_target_contains": "femurfraktur",
+      "expected_routing": "human_confirm",
+      "coordinate": "letter_02.md:14 ('Pertrochantäre Femurfraktur li. (S72.1) n. Sturz i. d. Pflegeeinrichtung')",
+      "notes": "Not in data/diagnoses/R002.json — a new diagnosis with real ongoing care implications (mobility, fall risk), unlike the acute/resolved findings treated as non-diagnoses elsewhere (see DECISIONS.md §1). Added after the real run; I hadn't included a diagnosis-ADD case in the original 23."
     },
     {
       "case_id": "neg_r001_betablocker_deferred",

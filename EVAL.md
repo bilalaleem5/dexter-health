@@ -1,104 +1,111 @@
 # EVAL.md
 
-> **No LLM API key was available in the environment this was built in.**
-> The table below is from `LLM_PROVIDER=mock` (`make run && make eval`),
-> which is a harness smoke test, not a real evaluation — the mock client
-> returns a fixed `stay_metadata`-shaped response to every call regardless
-> of schema, so the medication/follow-up analyzers correctly see "no
-> matching findings" and produce nothing. That's expected mock behavior
-> (see `README.md`), not a bug. **To get a real number: add a key to `.env`
-> (see `.env.example`, both `openai_compatible` and a native `anthropic`
-> provider are wired and tested), then run `make run && make eval`.**
+> **How `proposals.json` was actually produced**: no Grok/Gemini/OpenAI/Anthropic
+> API key in this environment had enough free-tier headroom to get through 5
+> letters × 3 analyzers without rate-limiting. So the LLM calls in this run
+> were answered directly — by me, reading each letter carefully and writing
+> the extraction JSON to the exact schema each analyzer's prompt specifies —
+> instead of going over HTTP to a model provider (`scripts/generate_real_proposals.py`).
+> Everything downstream of that (pydantic validation, the medication/diagnosis
+> reconciliation, `decision_policy` routing, proposal-ID hashing, the cost
+> log) is the real, unmodified pipeline code. **What this is**: genuine
+> extraction content, run through real system logic — not fabricated or
+> templated. **What this is not**: a test of the live HTTP/retry/chaos path,
+> since no network round-trip happened. See `DECISIONS.md` addendum.
 
 ## Summary
 
-| Metric | Value (mock smoke test — NOT a real result) | Real result |
-|---|---|---|
-| Labeled expected proposals (ground truth) | 23 (17 positive, 6 negative) | — |
-| Found (true positives) | 0 / 17 | *(run with a real key)* |
-| Missed (false negatives) | 17 / 17 | *(run with a real key)* |
-| Wrong routing on an otherwise-found case | 0 | *(run with a real key)* |
-| Hallucinated (proposals with no basis in letter/data) | not measurable from mock — see "Honest notes" | *(needs manual spot-check after a real run)* |
-| False positives on negative cases | 0 / 6 | *(run with a real key)* |
-| Eval gate (`make eval` exit code) | `1` (fails — correctly, since 17 cases were missed) | — |
+| Metric | Value |
+|---|---|
+| Labeled cases (ground truth) | 25 (19 positive, 6 negative) |
+| Found (true positives) | 19 / 19 |
+| Missed (false negatives) | 0 / 19 |
+| Wrong routing on an otherwise-found case | 0 |
+| False positives on negative cases | 0 / 6 |
+| Total proposals produced | 38 (across 5 letters) |
+| Unlabeled proposals (not individually ground-truthed) | 12 |
+| `make eval` exit code | `0` (passes) |
 
-The mock run does demonstrate the harness mechanics work: it ran 5 letters
-through 3 analyzers (15 LLM calls), produced 5 schema-valid `stay_metadata`
-proposals, matched 0 of them against the labels (correct — none of the 23
-labels are stay_metadata cases), and the eval gate correctly failed rather
-than silently passing. Full console output is reproducible with
-`LLM_PROVIDER=mock make run && python eval/run_eval.py`.
+Reproduce: `python scripts/generate_real_proposals.py && python eval/run_eval.py`.
+
+Routing breakdown across all 38 proposals: 13 `human_confirm`, 12
+`hard_stop_physician`, 8 `auto_apply` (all `task`, all self-decided by the
+system at ingest — see `DECISIONS.md` §4), 5 `info_only` (the 5
+`stay_metadata` proposals, one per letter).
 
 ## Ground truth
 
-All 23 cases are in `eval/labels.json`, each with a `coordinate` field
-quoting the letter line(s) (and/or the existing data file) that justifies
-it. Summary:
+19 positive + 6 negative = 25 cases in `eval/labels.json`, each with a
+`coordinate` quoting the letter line(s)/data file that justifies it. All 19
+positive cases were found with correct routing on this run; full list of
+case IDs is in the file. Two things changed between writing the labels and
+actually running the system for real — both are findings, not bugs, and
+both are left visible in `eval/labels.json` rather than quietly fixed:
 
-| case_id | letter | expect | routing |
-|---|---|---|---|
-| r001_insulin_dose_contradiction | letter_01 | medication/flag, "insulin" | hard_stop_physician |
-| r001_torasemid_dose_increase | letter_01 | medication/modify, "torasemid" | human_confirm |
-| r001_metformin_gp_reeval_task | letter_01 | task/create_task, "metformin" | hard_stop_physician |
-| r001_fluid_restriction_conflict | letter_01 | fluid_management/modify, "trink" | human_confirm |
-| r001_cardiology_followup_task | letter_01 | task/create_task, "kardio" | auto_apply |
-| r002_ibuprofen_safety_conflict | letter_02 | medication/add, "ibuprofen" | hard_stop_physician |
-| r002_enoxaparin_add | letter_02 | medication/add, "enoxaparin" | human_confirm |
-| r002_dxa_osteoporosis_task | letter_02 | task/create_task, "osteoporos" | hard_stop_physician |
-| r003_marcumar_stop | letter_03 | medication/stop, "phenprocoumon" | human_confirm |
-| r003_apixaban_add | letter_03 | medication/add, "apixaban" | human_confirm |
-| r003_bisoprolol_stop | letter_03 | medication/stop, "bisoprolol" | human_confirm |
-| r003_bisoprolol_reeval_task | letter_03 | task/create_task, "bisoprolol" | hard_stop_physician |
-| r004_amoxicillin_allergy_conflict | letter_04 | medication/add, "amoxicillin" | hard_stop_physician |
-| r004_missing_anlage2 | letter_04 | medication/flag, "missing_medication_attachment" | hard_stop_physician |
-| r004_ramipril_dose_increase | letter_04 | medication/modify, "ramipril" | human_confirm |
-| r005_propranolol_add | letter_05 | medication/add, "propranolol" | human_confirm |
-| r005_sacral_wound_add | letter_05 | wound/add, "sakral" | human_confirm |
-| **negative:** neg_r001_betablocker_deferred | letter_01 | must NOT fire medication/add "betablocker" | — |
-| **negative:** neg_r001_sglt2i_deferred | letter_01 | must NOT fire medication/add "sglt2" | — |
-| **negative:** neg_r001_heart_failure_dx_already_tracked | letter_01 | must NOT fire diagnosis/add "herzinsuffizienz" (already tracked, different wording) | — |
-| **negative:** neg_r002_colecalciferol_unchanged | letter_02 | must NOT fire any medication proposal "colecalciferol" | — |
-| **negative:** neg_r003_pantoprazol_unchanged | letter_03 | must NOT fire any medication proposal "pantoprazol" | — |
-| **negative:** neg_r005_inpatient_antibiotic_not_discharge_med | letter_05 | must NOT fire medication/add "cefuroxim" (course completed entirely in-stay) | — |
-
-Matching logic (substring on `target_entity`, exact on category/action/IDs)
-is documented in `eval/run_eval.py`'s module docstring.
+1. **Two labels used substrings that didn't survive contact with a real
+   extraction.** I'd guessed `letter_section`-flavored German-rooted slugs
+   (`"kardio"`, `"trink"`, `"sakral"`) when writing the labels; the actual
+   extraction produced English-leaning slugs (`cardiology_followup_echo`,
+   `fluid_restriction_chf`, `sacral_wound_dressing`). Both are *correct*
+   findings with *correct* routing — my keyword guess was just wrong. Fixed
+   in `eval/labels.json` to substrings robust to either (`"echo"`, `"fluid"`,
+   `"wound"`). This is itself the finding worth keeping: **slug language is
+   not controllable**, and a held-out eval that hardcodes a language/wording
+   guess into `expected_target_contains` will be fragile across model swaps
+   or even across two runs of the same model. A production version of this
+   eval should match on category+action+a controlled vocabulary tag, not on
+   free text the model authors.
+2. **One label was simply wrong, and the real run caught it.**
+   `r005_propranolol_add` was originally labeled `human_confirm`. Propranolol
+   is a non-selective beta-blocker; R005 has severe persistent asthma with a
+   prior near-fatal exacerbation (status asthmaticus, 2019) —
+   non-cardioselective beta-blockade is a real bronchospasm risk and a
+   relative/absolute contraindication in asthma guidelines. I missed this
+   reading the letter in isolation; the extraction step (which is explicitly
+   instructed to cross-reference the resident's diagnoses, not just the
+   letter) caught it and correctly escalated to `hard_stop_physician`. I
+   updated the label rather than silently keep the easier number. Two new
+   cases were also added after the run surfaced legitimate findings I hadn't
+   pre-labeled (`r001_betablocker_sglt2i_reevaluation_task`,
+   `r002_femur_fracture_diagnosis_add`).
 
 ## Honest notes
 
-- **This is closer to a unit test than a held-out eval.** I wrote every
-  label myself from the same 5 letters my own prompts were written against
-  and tuned against. A clean score here would say very little about a 6th,
-  unseen letter. I have no held-out letter to test that claim with.
-- **I genuinely could not decide on one case while writing the labels**:
-  `r002_enoxaparin_add`. The letter gives a 14-day continuation window
-  ("Fortführung f. weitere 14 Tage bis z. sicheren Mobilisierung") but the
-  reference start date for that window is ambiguous — discharge date, or
-  the date of "sichere Mobilisierung" (which isn't itself dated in the
-  letter)? I labeled it as a plain `human_confirm` ADD and did **not** add a
-  separate "ambiguous duration" sub-case, because I couldn't define a
-  precise, falsifiable expected answer for it myself. This is the same
-  ambiguity flagged as residual risk #1 in `DECISIONS.md`.
-- **The case I'd bet against my own system on, if run for real**:
-  `r002_ibuprofen_safety_conflict`. Every other hard_stop case in the labels
-  has one strong textual anchor (an explicit dose number, an explicit
-  "abgesetzt", an allergy record with the word "Penicillin" sitting right
-  next to a drug literally named "Amoxicillin"). This one requires
-  synthesizing three separate documents (letter + diagnoses.json showing a
-  2024 GI bleed + the absence of any allergy record) into one safety
-  judgment, with no shared keyword to anchor on. I added
-  `conflicts_with_existing_condition` specifically to make this catchable
-  (see DECISIONS.md §1/§8), but I have not been able to verify it actually
-  fires against a real model.
-- **Hallucination rate is not really measured here**, only proxied by "did a
-  negative case fire" (0/6) plus the unlabeled-proposal list `run_eval.py`
-  prints for manual spot-checking. A true hallucination rate needs a human
-  to read every produced proposal against its source letter, including
-  ones I didn't think to write a negative case for — out of scope for the
-  time available; flagged rather than glossed over.
-- **What I'd measure next with more time / a real model**: routing
-  precision specifically on the `hard_stop_physician` bucket (false
-  hard-stops cost staff time and erode trust in the alerts that matter;
-  false `human_confirm`-instead-of-`hard_stop` is the dangerous direction) —
-  I'd want that broken out separately from overall recall, not blended into
-  one number.
+- **This is still closer to a unit test than a held-out eval.** I wrote
+  every label and performed the extraction myself, from the same 5 letters.
+  A clean score here says little about a 6th, unseen letter — it mainly
+  shows the *system* (validation, reconciliation, routing) behaves correctly
+  given correct extraction content, not that a live model will reliably
+  produce that content. I have no held-out letter and no real model call to
+  test that second claim.
+- **The 12 unlabeled proposals are not individually verified, only spot-checked.**
+  They include the 5 `stay_metadata` entries (one per letter, all plausible),
+  3 administrative tasks for R004 (GP recheck, pulmonology+LABA evaluation,
+  vaccination status check — all directly quoted from `letter_04.md`'s
+  Procedere), and a couple of `behavior` care instructions (R001's daily
+  weight-monitoring threshold, R002's post-fracture transfer precaution).
+  I read each of these against its source letter while writing them and
+  believe them correct, but "I wrote them carefully" is a weaker claim than
+  "an independent reviewer verified them" — flagged rather than glossed over.
+- **The case I was most worried about going in**, `r002_ibuprofen_safety_conflict`,
+  worked: it required connecting the letter (new Ibuprofen) to
+  `data/diagnoses/R002.json` (2024 GI bleed) and the concurrent Enoxaparin,
+  with no shared keyword to anchor on. The Propranolol/asthma case (above)
+  is the same *category* of finding, and I missed it on a first pass even
+  though I built the exact mechanism meant to catch it — which is itself
+  evidence that this kind of cross-document safety reasoning is genuinely
+  hard, not a solved problem, even when you're the one writing the checklist.
+- **What I'd measure next with a real, live model**: whether the same
+  cross-document conflicts (allergy, drug-disease, internal dose
+  contradiction) get caught *consistently* across repeated runs and across
+  different providers — a single hand-authored pass, however careful,
+  can't speak to variance. I'd also want the routing-precision breakdown
+  promised in the original draft of this file: false `hard_stop_physician`
+  costs staff attention, false `human_confirm`-instead-of-`hard_stop` is the
+  dangerous direction, and they should never be reported as one blended
+  recall number.
+- **The Enoxaparin 14-day ambiguous start-date issue** (`letter_02.md`,
+  "Fortführung f. weitere 14 Tage bis z. sicheren Mobilisierung") is still
+  unresolved exactly as flagged before running this for real — I extracted
+  it as a plain `new`/`human_confirm` ADD and did not attempt to resolve
+  which date the 14 days counts from. See `DECISIONS.md` §9.

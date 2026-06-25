@@ -29,15 +29,10 @@ class OpenAICompatibleClient:
 
     def __init__(self, model: str, api_key: str, base_url: str):
         self.model = model
-        self.api_keys = [k.strip() for k in api_key.split(",") if k.strip()]
+        self.api_key = api_key
         self.base_url = base_url.rstrip("/")
+        # Drained by run.py into the proposals.json cost_log.
         self.usage_log: list[dict] = []
-        self._current_key_idx = 0
-
-    def _get_key(self) -> str:
-        key = self.api_keys[self._current_key_idx]
-        self._current_key_idx = (self._current_key_idx + 1) % len(self.api_keys)
-        return key
 
     def complete(self, system: str, user: str, schema: dict | None = None) -> str:
         payload: dict = {
@@ -48,9 +43,10 @@ class OpenAICompatibleClient:
             ],
         }
         if schema is not None:
-            # Groq structured outputs are too strict and cause 400/413 errors.
-            # We rely on prompt instructions instead.
-            pass
+            payload["response_format"] = {
+                "type": "json_schema",
+                "json_schema": {"name": "response", "schema": schema},
+            }
 
         response = self._post(payload)
         # Some providers/models reject response_format → retry ONCE without it.
@@ -68,32 +64,15 @@ class OpenAICompatibleClient:
                 "output_tokens": usage.get("completion_tokens", 0),
             }
         )
-        raw = response.json()["choices"][0]["message"]["content"]
-        raw = raw.strip()
-        if raw.startswith("```"):
-            lines = raw.split("\n")
-            if lines[0].startswith("```"):
-                lines = lines[1:]
-            if lines[-1].startswith("```"):
-                lines = lines[:-1]
-            raw = "\n".join(lines).strip()
-        return raw
+        return data["choices"][0]["message"]["content"]
 
     def _post(self, payload: dict) -> httpx.Response:
-        import time
-        for attempt in range(len(self.api_keys) * 4):
-            key = self._get_key()
-            response = httpx.post(
-                f"{self.base_url}/chat/completions",
-                headers={"Authorization": f"Bearer {key}"},
-                json=payload,
-                timeout=60,
-            )
-            if response.status_code in (429, 503):
-                time.sleep(2)  # fast retry with the next key
-                continue
-            return response
-        return response
+        return httpx.post(
+            f"{self.base_url}/chat/completions",
+            headers={"Authorization": f"Bearer {self.api_key}"},
+            json=payload,
+            timeout=60,
+        )
 
 
 class AnthropicClient:

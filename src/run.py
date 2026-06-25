@@ -51,10 +51,7 @@ def run_analysis(letters_dir: Path, data_dir: Path, out_path: Path) -> Proposals
         # Index "file" may be a bare filename ("letter_01.md") or a path
         # ("letters/letter_01.md"); the files live flat inside the letters dir.
         letter_path = letters_dir / Path(letter_meta["file"]).name
-        try:
-            letter_text = letter_path.read_text(encoding="utf-8")
-        except UnicodeDecodeError:
-            letter_text = letter_path.read_text(encoding="latin-1")
+        letter_text = letter_path.read_text(encoding="utf-8")
         resident_data = resident_repo.load(letter_meta["resident_id"])
 
         for analyzer in ANALYZERS:

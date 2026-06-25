@@ -257,10 +257,7 @@ def ingest_letter(body: IngestLetterRequest) -> IngestLetterResponse:
     letter_path = LETTERS_DIR / Path(entry["file"]).name
     if not letter_path.exists():
         raise HTTPException(status_code=500, detail=f"Letter file missing on disk: {letter_path}")
-    try:
-        letter_text = letter_path.read_text(encoding="utf-8")
-    except UnicodeDecodeError:
-        letter_text = letter_path.read_text(encoding="latin-1")
+    letter_text = letter_path.read_text(encoding="utf-8")
 
     resident_data = ResidentDataRepository(DATA_DIR).load(resident_id)
     llm = get_llm_client()
